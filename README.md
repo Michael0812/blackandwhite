@@ -1,4 +1,10 @@
-## UX
+## Navigation
+
+- [UX/UI](#UX/UI)
+
+
+
+## UX/UI
 ### Visitor Goals
 The central target audience for **Black & White** are:
 
@@ -15,6 +21,7 @@ User goals are:
 -   See journey coffee needs to take to taste them
 -   Be able to navigate the shop easily, find what I need and make a safe and secure purchase.
 -   Buy from a trustworthy online shop.
+
 
 
 ### Business Goals

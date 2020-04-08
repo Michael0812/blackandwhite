@@ -1,10 +1,10 @@
 ## Navigation
 
-- [UX/UI](#UX/UI)
+- [UX](#ux)
 
 
 
-## UX/UI
+## UX
 ### Visitor Goals
 The central target audience for **Black & White** are:
 

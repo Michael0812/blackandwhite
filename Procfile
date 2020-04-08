@@ -1,1 +1,1 @@
-echo web: gunicorn django_todo.wsgi:application
+web: gunicorn blackandwhite.wsgi:application

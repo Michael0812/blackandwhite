@@ -1,6 +1,7 @@
 ## Navigation
 
 - [UX](#ux)
+- [Wireframes](#wireframes)
 
 
 
@@ -40,3 +41,6 @@ The Goals of **Black & White** business are:
 -   Improve Customer satisfaction
 -   Create a friendly place for our employees
 -   Expand the business
+
+
+## Wireframes

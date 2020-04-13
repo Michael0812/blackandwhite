@@ -53,3 +53,4 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/).
 - [Contact](https://i.ibb.co/44tnGNf/contact.png)
 - [Coffee](https://i.ibb.co/9wxnFh2/coffee.png)
 - [Mission & Vision](https://i.ibb.co/qp6fhJt/mission-vision.png)
+- [Shop](https://i.ibb.co/mvwgxrc/shops.png)

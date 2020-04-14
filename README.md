@@ -43,6 +43,26 @@ The Goals of **Black & White** business are:
 -   Expand the business
 
 
+### User Stories
+As a visitor to **Black & White** website I expect/want/need:
+
+- To be able to access website from any devices
+- For the content to look good and be useable on all of devices
+- To be able login and register
+- To see information about the website
+- To easily navigate on the website
+- For all information and images to be laid out in a clear and easy to understand way,
+- To be able to make a purchase for product
+- Visit social media
+- To make sure company care for environment
+- To make sure products are high quality
+- Be able to read policy and delivery information
+- To have easy flow through the website
+- To easily find what I am looking for
+- To be able to contact the owners of the software
+- To get information and addresses of all the shops
+
+
 ## Wireframes
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/).

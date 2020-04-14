@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Michael0812/blackandwhite.svg?branch=master)](https://travis-ci.org/Michael0812/blackandwhite)
+
 ## Navigation
 
 - [UX](#ux)

@@ -12,9 +12,16 @@
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
 
+    <!-- Custom css -->
+    <link rel="stylesheet" href="{% static 'css/main.min.css' %}">
 </head>
+
 <body>
+
+    <!--Content-->
+    {% block content %}
     
+    {% endblock %}
 
     <!-- Scripts for bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

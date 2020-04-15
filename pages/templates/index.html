@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 
@@ -44,8 +45,19 @@
                     <p class="promises-text text-center mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint</p>
             </div>
         </div>
+            <div class="col read-more rounded mx-auto d-block pt-3 mt-5">
+                <p class="text-center">READ MORE</p>
+            </div>
         </div>
     </section>
 
+    <!--Products-->
+    <section class="products">
+        <div class="container">
+            <div class="row">
+                <img src="{% static 'img/image-products.png' %}">
+            </div>
+        </div>
+    </section>
 
 {% endblock%}

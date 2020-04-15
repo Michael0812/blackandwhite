@@ -49,6 +49,12 @@ h4:after{
     top: 35%;
 }
 
+.read-more{
+    border: 1.5px solid #AF9375;
+    width: 10rem;
+    text-align: center;
+    margin-top: 10px;
+
 @media only screen and (min-width: 768px) {
 .introductionn{
     margin-left: 22%;

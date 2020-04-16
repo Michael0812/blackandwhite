@@ -39,8 +39,26 @@ body{
 .products-text{
     position: absolute;
     color: #FFFFFF;
-    right: 15rem;
-    margin-top: 7rem;
+    right: 20rem;
+    margin-top: 15rem;
+}
+
+.products-info{
+    position: absolute;
+    color: #FFFFFF;
+    right: 5.5rem;
+    margin-top: 15rem;
+    width: 600px;
+}
+
+.view-more{
+    border: 1.5px solid #FFFFFF;
+    width: 10rem;
+    color: #FFFFFF;
+    position: absolute;
+    right: 20rem;
+    margin-top: 24rem;
+    text-align: center;
 }
 
 
@@ -59,7 +77,6 @@ body{
 
 @media only screen and (min-width: 1024px) {
     html{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
-
     }

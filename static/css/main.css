@@ -29,7 +29,7 @@ body{
     border: 1.5px solid #AF9375;
     width: 10rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 
@@ -56,12 +56,16 @@ body{
 
 .view-more{
     border: 1.5px solid #FFFFFF;
-    width: 10rem;
+    width: 9rem;
+    height: 50px;
     color: #FFFFFF;
     position: absolute;
     right: 20rem;
     margin-top: 24rem;
     text-align: center;
+}
+.viewmore{
+    margin-top: 0.625rem;
 }
 
 

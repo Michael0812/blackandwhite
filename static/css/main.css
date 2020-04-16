@@ -71,7 +71,6 @@ body{
 /* Video */
 
 .video-background{
-    max-height: 90vh;
     width: 100%;
     position: relative;
 }
@@ -87,7 +86,7 @@ body{
 }
 
 .video{
-    height: 280px;
+    height: 260px;
     width: 450px;
     position: absolute;
     margin-top: 10rem;
@@ -99,7 +98,15 @@ body{
 
 
 /* Media Queires */
+
 @media only screen and (max-width: 768px) {
+    .video-background{
+        height: 400px;
+    }
+    .video{
+        height: 180px;
+        width: 250px;
+    }
     .products-text{
         margin-top: 3.5rem;
         right: 6rem;
@@ -115,14 +122,17 @@ body{
         right: 11rem;
 }
 }
-
+@media only screen and (min-width: 1400px) {
+    .video-background{
+       max-height: 70vh;
+    }
+}
 @media only screen and (min-width: 769px) and (max-width: 1023px)  {
     .products-info{
         width: 400px;
         right: 4rem;
     }
 }
-
 
 @media only screen and (min-width: 768px) {
     .introductionn{

@@ -24,6 +24,14 @@ body{
     position: relative;
 }
 
+.logo{
+    position: absolute;
+    margin-top: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
 
 .read-more{
     border: 1.5px solid #AF9375;
@@ -233,14 +241,14 @@ body{
         margin-top: 20rem;
         right: 11rem;
 }
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
+    .site-footer
+    {
+        padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+        text-align:center
+    }
 }
 @media only screen and (min-width: 1400px) {
     .video-background{

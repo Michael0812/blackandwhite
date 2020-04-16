@@ -95,7 +95,16 @@ body{
     left: 0;
     right: 0;
 }
+/* Mision and Vision */
 
+.mission-home,
+.vission-home{
+    height: 400px;
+    width: 100%;
+}
+.mission-title{
+    margin-top: 7.5rem;
+}
 
 /* Media Queires */
 

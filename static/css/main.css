@@ -68,6 +68,35 @@ body{
     margin-top: 0.625rem;
 }
 
+/* Video */
+
+.video-background{
+    max-height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.video-text{
+    color: #AF9375;
+    font-size: 1.4rem;
+    position: absolute;
+    margin-top: 4.5rem;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+.video{
+    height: 280px;
+    width: 450px;
+    position: absolute;
+    margin-top: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+
 
 /* Media Queires */
 @media only screen and (max-width: 768px) {

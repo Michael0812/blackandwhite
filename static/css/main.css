@@ -32,6 +32,8 @@ body{
     margin-top: 10px;
 }
 
+
+/* Products(home page) */
 .products-image{
     max-height: 70vh;
     width: 100%;
@@ -46,9 +48,10 @@ body{
 .products-info{
     position: absolute;
     color: #FFFFFF;
-    right: 5.5rem;
+    right: 8.5rem;
     margin-top: 15rem;
     width: 600px;
+    text-align: center;
 }
 
 .view-more{
@@ -62,17 +65,43 @@ body{
 }
 
 
+/* Media Queires */
+@media only screen and (max-width: 768px) {
+    .products-text{
+        margin-top: 3.5rem;
+        right: 6rem;
+    }
+    .products-info{
+        margin-top: 8.2rem;
+        right: 3rem;
+        width: 250px;
+        text-align: center;
+}
+    .view-more{
+        margin-top: 20rem;
+        right: 11rem;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px)  {
+    .products-info{
+        width: 400px;
+        right: 4rem;
+    }
+}
+
+
 @media only screen and (min-width: 768px) {
-.introductionn{
-    margin-left: 22%;
-    margin-right: 22%;
-}
-.products-text{
-    position: absolute;
-    color: #FFFFFF;
-    right: 15rem;
-    margin-top: 10rem;
-}
+    .introductionn{
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    .products-text{
+        position: absolute;
+        color: #FFFFFF;
+        right: 15rem;
+        margin-top: 10rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) {

@@ -11,7 +11,8 @@ body{
     background-color: #FFFFFF;
     letter-spacing: 1px;
     line-height: 30px;
-    overflow-x: hidden;  
+    overflow-x: hidden;
+    color: #333333;
 }
 
 
@@ -34,9 +35,23 @@ body{
     max-height: 70vh;
     width: 100%;
 }
+.products-text{
+    position: absolute;
+    color: #FFFFFF;
+    right: 15rem;
+    margin-top: 7rem;
+}
+
 
 @media only screen and (min-width: 768px) {
 .introductionn{
     margin-left: 22%;
     margin-right: 22%;
+}
+.products-text{
+    position: absolute;
+    color: #FFFFFF;
+    right: 15rem;
+    margin-top: 10rem;
+}
 }

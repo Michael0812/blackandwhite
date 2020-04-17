@@ -15,12 +15,27 @@ body{
     overflow-x: hidden;
     color: #333333;
 }
+header {
+    height:180vh;
+    min-height:400px;
+    background-size:cover;
+    background-position: center;
+    background-image:url('https://www.trailheadcoffeeshop.com/wp-content/uploads/2018/10/banner-1-1360x605.jpg');
+}
 
+.hidden-spacer {
+    height: 56px
+}
+@media only screen and (max-width: 1024px) {
+    .test{
+        min-height: 70vh;
+    }
+    }
 
 /* BANNER */
 .banner-image{
     width: 100%;
-    height: 80%;
+    height: auto;
     position: relative;
 }
 
@@ -144,75 +159,14 @@ body{
 
 
 /* Footer */
-
-.site-footer{
-    max-width: 100%;
-    padding:45px 0 20px;
-    font-size:15px;
-    line-height:24px;
-    color: #FFFFFF;
+.logo-footer{
+    width: 300px
+}
+.page-footer{
     background-color: #707070;
 }
-.footer-text{
-    width: 500px;
-}
-.site-footer hr{
-    border-top-color:#bbb;
-    opacity:0.5
-}
-.site-footer hr.small{
-    margin:20px 0
-}
-
-.footer-links,
-.nav{
-    padding-left:0;
-    list-style:none
-}
-
-.footer-links li{
-    display:block
-}
-
-.footer-links.inline li{
-    display:inline-block
-}
-
-.site-footer .social-icons{
-    text-align:right
-}
-
-.site-footer .social-icons a{
-    width:40px;
-    height:40px;
-    line-height:40px;
-    margin-left:6px;
-    margin-right:0;
-    border-radius:100%;
-    background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-
-
-.social-icons{
-    letter-spacing: 5px;
-    padding-left:0;
-    margin-bottom:0;
-    list-style:none
-}
-.social-icons li{
-    display:inline-block;
-    margin-bottom:4px
-}
-
-
-
-@media (max-width:767px)
-{
-
+.text-footer{
+width: 400px;
 }
 /* Media Queires */
 

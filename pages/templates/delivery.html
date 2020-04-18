@@ -1,50 +1,60 @@
-{% extends 'base.hmtl' %}
+{% extends 'base.html' %}
 
-{block content}
+{% load static %}
+
+
+{% block content %}
 
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h1 class="text-center">Delivery Information</h1>
-            <h3>COVID - 19</h3>
-            <p>It’s extremely important to us that we action everything necessary to keep our customers and team safe while we are all battling Covid-19 as 
-                a community. As of March 25th, New Zealand entered Level 4 lockdown which meant all non-essential services were to close. This also means that 
-                our lovely couriers who were previously able to deliver our goods to customers are now unable to do so. This is an important part of the process, 
-                as couriers are an essential transport service and the delivery of important packages are the priority during this time.
+            <h1 class="title-delivery mt-5 pt-5">Delivery Information</h1>
+            <hr>
+
+            <h4 class="font-weight-bold mt-3 pt-4">Free Delivery</h4>
+            <p>
+                Free delivery is within the UK only and is sent via Royal Mail 2nd Class.
+            </p>     
+
+            <h4 class="font-weight-bold mt-3 pt-4">How we work</h4>     
+            <p>We want the coffee to arrive with you as fresh as possible. With that in mind, we process our orders every morning, at 8 am, 
+                and make up our daily roast schedule accordingly. We aim to despatch all orders placed before 8 am the very same day.  
             </p>
 
-            <p>We empathise with all small businesses that have been impacted by the current climate and the love we share for our neighbours,
-                labels and friends alike extends to all. If you are able to, continuing to support small businesses during this period means the world, 
-                and it supports the longevity of their craft.
+            <h4 class="font-weight-bold mt-3 pt-4">RAVE lead time</h4>
+            <p>After we receive your order it will be roasted and despatched on the next working day. Working days are Mon - Friday, 
+                if you order after 8 am on Friday then it will be processed the following Monday.
             </p>
 
+            <h4 class="font-weight-bold mt-3 pt-4">Postal</h4>
+            <p>Royal Mail 1st Class 1-2 days Royal Mail 2nd Class 2-3 days Parcel Force - Next Working day (Mon to Fri only)
+                Items will be posted to the address received during the checkout process. </p>
 
-            <p>Our online store is still open for browsing and shopping 24/7. We have and will continue to upload current styles for your pleasure. 
-                If you support us by placing an order online, your order will be fulfilled as soon as restrictions are lifted. Every order truly warms 
-                our heart and we thank you so much for choosing to support us, our team, our labels and their families.
+            <h4 class="font-weight-bold mt-3 pt-4">Delivery Charges</h4>
+            <p>
+                Roasted coffee shipping charges: Parcels up to 3 kg will be sent via Royal Mail and the price will be calculated during 
+                checkout.  Parcels over 3 kg are sometimes sent via Parcel Force. (Contact us if you require confirmation)
+                Coffee Machines and Grinders:  Postage and packaging will be quoted at time of order.
             </p>
 
-            <p>Please shop without worry- our return policy will continue to extend as the situation evolves and we will be accepting all returns for refund,
-                 credit or exchange. Feel free to contact us on any platform if you have a query.
-            </p>
-            
-           <p>We also have online gift cards available to purchase for another, or to treat yourself.
-                Thank you and stay safe friends xx
-            </p> 
-
-            <h3>Shipping</h3>
-            <p>We have implemented FREE SHIPPING on all domestic deliveries to enhance your online shopping experience during this time. Your beautiful parcel will be sent via courier once restrictions are lifted and pick-ups will be ready once we get the all clear to reopen the store.
-                Below you can read our usual shipping policies, but for now rest assured you can simply select FREE SHIPPING at the checkout.
+            <h4 class="font-weight-bold mt-3 pt-4">International</h4>
+            <p>
+                International postage is calculated at checkout. If you would like a tracked delivery please request a quotation before ordering.
+                 We cannot guarantee delivery if you have not selected this option.
             </p>
 
-            <h3>Lost Packages</h3>
-            <p>If any packages are completely lost in transit during the course of our delivery, we will replace or refund the item if shipped nationally.
-                If you are returning an item which may be faulty, or an exchange, please know that we do not take any responsibility for items lost in the post.
-                 We recommend a track and trace method to ensure this doesn't happen; your garment cannot be processed for an exchange or a refund if it goes missing.
-                The expense of return shipping is that of the customers, your initial order including shipping will be refunded if you are being reimbursed. 
+            <h4 class="font-weight-bold mt-3 pt-4">Changed of mind</h4>
+            <p class="bottom pb-5">
+                If you have changed your mind and the items are unsuitable then please contact us within 14 days of receipt of the goods to arrange a refund. 
+                You will incur the carriage charge for return of the goods. Please note that refunds are subject to the provided goods being in perfect,
+                unused and complete in their unopened original packaging. Please allow 14 working days for this process. All shipping back to Rave Coffee 
+                is to be paid for by the customer.  We recommend that your carrier provides you with ‘proof of delivery’ as Rave Coffee cannot be held responsible 
+                for goods lost or damaged in transit. 
             </p>
         </div>
     </div>
 </div>
+
+{% endblock %}
 
 {endblock}

@@ -14,3 +14,12 @@ def delivery(request):
     a view that displays page with delivery information
     """
     return render(request, 'delivery.html')
+
+
+def terms(request):
+    """
+    a view that displays page with terms & conditions
+    """
+    return render(request, 'terms.html')
+
+

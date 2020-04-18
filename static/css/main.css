@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
     margin: 0;
@@ -8,7 +8,7 @@ html {
 }
 
 body{
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #FFFFFF;
     letter-spacing: 2px;
     line-height: 30px;
@@ -16,71 +16,14 @@ body{
     color: #333333;
 }
 
-.header{
-    background: url("https://i.ibb.co/YXf0Hrc/banner-image.png") center center fixed;
-    color: #FFF;
-    height: 100vh;
-    position: relative;
+/* Banner */
+.banner-background {
+    background-image: url("https://i.ibb.co/LPgDQmn/banner-image.png");
+    background-attachment: fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -msn-background-size: cover;
-}
-.header .overlay{
-    background: rgba(0, 0, 0, 0.58);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0; 
-}
-
-
-.header .navbar-default {
-	background-color:transparent !important;
-	border-color:transparent;
-	background-image:none;
-	box-shadow:none;	
-}
-.header .navbar-default .navbar-brand{
-    font-size: 30px;
-    font-weight: bold;
-    color: #FFF;
-}
-
-.header .navbar-default .navbar-nav>li>a {
-   font-size:20px; 
-   color:#fff; 
-    border-bottom: 1px solid transparent
-}
-.header .navbar-default .navbar-nav>li:hover a{
-    color: #333;
-     border-bottom: 1px solid #FFF
-}
-
-
-.header .navbar-toggle {
-      margin:10px 0; 
-      background:#36C; 
-      color:#FFF;
-}
-
-
-/* BANNER */
-.banner-image{
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-.logo{
-    position: absolute;
-    margin-top: 10rem;
-    margin-right: auto;
-    margin-left: auto;
-    left: 0;
-    right: 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center 5%;
 }
 
 .read-more{
@@ -203,6 +146,9 @@ body{
 .text-footer{
     width: 400px;
 }
+a{
+    color: #FFFFFF;
+}
 /* Media Queires */
 
 @media only screen and (max-width: 768px) {
@@ -275,8 +221,9 @@ body{
     .contact-text{
         padding-left: 10rem;
     }
-    }
-    @media (max-width:991px){
+}
+
+@media (max-width:991px){
     .site-footer [class^=col-]{
         margin-bottom:30px;
         margin-top:20px;

@@ -1,57 +1,72 @@
 {% load static %}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-<div class="test img-responsive">
-    <!-- positions favs and cart icons to left of toggler on mobiles (2nd one for desktop below) -->
-    <div id="navbar-icons-mobile" class="d-lg-none">
-        <a class="nav-link nav-link-icon" href="#" title="Shopping cart">
-            <div>
-                <i class="fas fa-shopping-basket navbar-icon"></i>
-                
-                <div id="cart-counter">
-                    </div>
-            </div>
-        </a>
-    </div>
+    <div class="container-fluid banner-background push-footer-down">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light small-box-shadow">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
+  
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ">
-            <li class="nav-item ">
-                <a class="nav-link " href="#">PRODUCTS
-                <span class="sr-only"></span></a>
+    
+    <div class="d-lg-inline-block">
+    
+        <ul class="navbar-nav px-1 mr-md-1 pt-5 mt-5">
+
+        <!--Products-->
+            <li class="nav-item {% if page == 'home' %}active{% endif %}">
+                <a class="nav-link text-white" href="#">PRODUCTS {% if page == "home" %}<span
+                        class="sr-only">(current)</span>{% endif %}</a>
             </li>
 
-               <li class="nav-item">
-                <a class="nav-link" href="#">SHOPS
-                <span class="sr-only"></span></a>
+        <!--Shops-->
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">SHOPS {% if page == "about" %}<span
+                        class="sr-only">(current)</span>{% endif %}</a>
             </li>
 
-               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US
-                <span class="sr-only"></span></a>
+        <!--About us-->
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">ABOUT US {% if page == "faqs" %}<span
+                    class="sr-only">(current)</span>{% endif %}</a>
             </li>
 
-               <li class="nav-item">
-                <a class="nav-link" href="#">LOGIN
-                <span class="sr-only"></span></a>
+        <!--Login-->
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">LOGIN {% if page == "faqs" %}<span
+                    class="sr-only">(current)</span>{% endif %}</a>
             </li>
-
         </ul>
-        <ul class="navbar-nav ml-auto">
- 
+        </div>
+
+
+
+        <ul class="navbar-nav ml-auto pt-5 mt-5">
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-search navbar-search-icon" title="Search"></i>
+                    <i class="fas fa-search navbar-search-icon text-white" title="Search"></i>
                     {% if page == "search" %}<span class="sr-only">(current)</span>{% endif %}
                 </a>
             </li>
         </ul>
-   </div>
     </div>
-    </nav>
- 
+
+    <!-- positions favs and cart icons to far right of navbar when navigation not collapsed -->
+    <div id="navbar-icons-desktop" class="d-lg-inline-block">
+        <a class="nav-link nav-link-icon pt-5 mt-5" href="#" title="Shopping cart" aria-label="View shopping cart">
+            <div>
+                <i class="fas fa-shopping-basket navbar-icon"></i> 
+                <div id="cart-counter"></div>
+            </div>
+        </a>
+    </div>
+    
+</nav>
+<div class="row pt-5 mt-5">
+        <div class="col">
+            <img src=" {% static 'img/logo.svg' %}" alt="logo-navbar" class="rounded mx-auto d-block">
+        </div>
+    </div>
+</div>

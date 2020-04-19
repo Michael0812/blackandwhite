@@ -15,7 +15,7 @@ import dj_database_url
 
 from os import path
 if path.exists("env.py"):
-  import env 
+    import env
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -129,11 +129,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATICFILES_LOCATION = 'static'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
-STATIC_URL = '/static'
-
-STATIC_ROOT = 'static'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
-]
+# python3 manage.py runserver $IP:$PORT

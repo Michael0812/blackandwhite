@@ -16,6 +16,7 @@ body{
     color: #333333;
 }
 
+
 /* Banner */
 .banner-background {
     background-image: url("https://i.ibb.co/LPgDQmn/banner-image.png");
@@ -23,6 +24,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    width: 100%;
     background-position: center 5%;
 }
 
@@ -31,110 +33,86 @@ body{
     width: 10rem;
     text-align: center;
     margin-top: 0.625rem;
+    margin-bottom: 10rem;
 }
 
 
-/* Products(home page) */
-.products-image{
-    max-height: 70vh;
+/* Products */
+.image-products{
+    background-image: url("https://i.ibb.co/0MNgRjd/image-products.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
     width: 100%;
-}
-.products-text{
-    position: absolute;
-    color: #FFFFFF;
-    right: 20rem;
-    margin-top: 15rem;
+    background-position: center 5%;
 }
 
 .products-info{
-    position: absolute;
-    color: #FFFFFF;
-    right: 8.5rem;
-    margin-top: 15rem;
-    width: 600px;
-    text-align: center;
+    margin-top: 5rem;
 }
 
 .view-more{
+    margin-top: 3rem;
     border: 1.5px solid #FFFFFF;
     width: 9rem;
     height: 50px;
     color: #FFFFFF;
-    position: absolute;
-    right: 20rem;
-    margin-top: 24rem;
-    text-align: center;
 }
-.viewmore{
-    margin-top: 0.625rem;
-}
+
 
 /* Video */
-
 .video-background{
+    background-image: url("https://i.ibb.co/0GYQFY0/video-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
     width: 100%;
-    position: relative;
+    background-position: center 5%;
 }
 
-.video-text{
+.video-title{
     color: #AF9375;
-    font-size: 1.4rem;
-    position: absolute;
-    margin-top: 4.5rem;
-    text-align: center;
-    right: 0;
-    left: 0;
+    margin-top: 5rem; 
 }
 
-.video{
-    height: 260px;
-    width: 450px;
-    position: absolute;
-    margin-top: 10rem;
-    margin-right: auto;
-    margin-left: auto;
-    left: 0;
-    right: 0;
-}
+
 /* Mission and Vision */
-
 .mission-home,
 .vission-home{
     height: 400px;
     width: 100%;
 }
+
 .mission-title{
     margin-top: 7.5rem;
 }
 
+
 /* Contact */
 .contact-banner{
+    background-image: url("https://i.ibb.co/0fbmBCk/contact-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15vh;
     width: 100%;
-    max-height: 20vh;
-    position: relative;
-}
-.contact-text{
-    color: #333333;
-    top: -5.5rem;
-    position: absolute;
-}
-.contact-us{
-    position: absolute;
-    top: -5.5rem;
-    font-size: 0.9rem;
-    margin-left: 70%;
-    border: 1px solid #A88D70;
-    background-color: #A88D70;
-    height: 50px;
-    color: #FFFFFF;
-    text-align: center;
-    width: 15%;
-    margin-top: -1.2rem;
-}
-.contact-s{
-    margin-top: 6px;
+    background-position: center 5%; 
+    margin-top: 10rem;
 }
 
+.contact-text,
+.contact-us{
+    text-align: center;
+}
+
+.contact-border{
+    border: 1px solid #A88D70;
+    background-color: #A88D70;
+    border-width: 1.5rem;   
+}
+
+.contact-us{
+    color: #FFFFFF;
+}
 
 /* Footer */
 .logo-footer{
@@ -149,83 +127,35 @@ body{
 a{
     color: #FFFFFF;
 }
-/* Media Queires */
-
-@media only screen and (max-width: 768px) {
-    .video-background{
-        height: 400px;
-    }
-    .contact-us{
-        width: 100px;
-    }
-    .video{
-        height: 180px;
-        width: 250px;
-    }
-    .products-text{
-        margin-top: 3.5rem;
-        right: 6rem;
-    }
-    .products-info{
-        margin-top: 8.2rem;
-        right: 3rem;
-        width: 250px;
-        text-align: center;
-}
-    .view-more{
-        margin-top: 20rem;
-        right: 11rem;
-}
-    .site-footer
-    {
-        padding-bottom:0
-    }
-    .site-footer .copyright-text,.site-footer .social-icons
-    {
-        text-align:center
-    }
-}
-@media only screen and (min-width: 1400px) {
-    .video-background{
-       max-height: 70vh;
-    }
-}
-@media only screen and (min-width: 769px) and (max-width: 1023px)  {
-    .products-info{
-        width: 400px;
-        right: 4rem;
-    }
-    .contact-text,
-    .contact-us{
-        top: -10rem;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .introductionn{
-        margin-left: 22%;
-        margin-right: 22%;
-    }
-    .products-text{
-        position: absolute;
-        color: #FFFFFF;
-        right: 15rem;
-        margin-top: 10rem;
-    }
-}
+/* Media Quries */
 
 @media only screen and (min-width: 1024px) {
-    html{
-        font-size: 1rem;
+.mission-title{
+        margin-top: 15rem;
     }
-    .contact-text{
-        padding-left: 10rem;
+.contact-text{
+        font-size: 2.1rem;
+        margin-left: 12%;
     }
 }
 
-@media (max-width:991px){
-    .site-footer [class^=col-]{
-        margin-bottom:30px;
-        margin-top:20px;
-  }
+@media only screen and (min-width: 786px) {
+.products-text{
+        width: 600px;
+    }
+
+@media only screen and (max-width: 767px) {
+.image-products{
+    min-height: 50vh;
+}
+
+.video-background{
+    height: 300px;
+}
+}
+
+@media only screen and (max-width: 968px) {
+.video-youtube{
+        width: 300px;
+    }
 }

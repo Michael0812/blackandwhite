@@ -18,6 +18,10 @@ body{
 
 
 /* Banner */
+.logo-navbar{
+    width: 600px;
+    margin-top: 5rem;
+}
 .banner-background {
     background-image: url("https://i.ibb.co/LPgDQmn/banner-image.png");
     background-attachment: fixed;
@@ -41,6 +45,7 @@ body{
 .image-products{
     background-image: url("https://i.ibb.co/0MNgRjd/image-products.png");
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 80vh;
     width: 100%;
@@ -65,7 +70,8 @@ body{
     background-image: url("https://i.ibb.co/0GYQFY0/video-background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    background-attachment: fixed;
+    min-height: 400px;
     width: 100%;
     background-position: center 5%;
 }
@@ -129,6 +135,14 @@ a{
 }
 /* Media Quries */
 
+@media only screen and (max-width: 1024px) {
+.promises-text{
+    width: 85%;
+    text-align: center;
+}
+}
+
+
 @media only screen and (min-width: 1024px) {
 .mission-title{
         margin-top: 15rem;
@@ -137,25 +151,45 @@ a{
         font-size: 2.1rem;
         margin-left: 12%;
     }
+.products-title,
+.products-text,
+.view-more{
+    font-size: 1.5rem;
+    }
+.view-more{
+    width: 15rem;
+}
+.introductionn{
+        margin-left: 30%;
+        margin-right: 30%;
+}
 }
 
 @media only screen and (min-width: 786px) {
 .products-text{
         width: 600px;
     }
+.introductionn{
+        margin-left: 22%;
+        margin-right: 22%;
+}
+}
 
 @media only screen and (max-width: 767px) {
 .image-products{
     min-height: 50vh;
-}
-
+    }
 .video-background{
-    height: 300px;
+    max-height: 40vh;
 }
 }
 
 @media only screen and (max-width: 968px) {
-.video-youtube{
+    .video-youtube{
         width: 300px;
-    }
+}
+.logo-navbar{
+    width: 260px;
+    margin-top: 5rem;
+}
 }

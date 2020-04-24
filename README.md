@@ -2,12 +2,19 @@
 
 ## Navigation
 
-- [UX](#ux)
-- [Wireframes](#wireframes)
-
+1. [UX](#ux)
+    - [Goals](#goals)
+        - [Visitor Goals](#visitor-goals)
+        - [User Goals](#user-goals)
+        - [Business Goals](#business-goals)
+    - [User Stories](#user-stories)
+    - [Design Choices](#design-choices)
+    - [Wireframes](#wireframes)
 
 
 ## UX
+
+### Goals
 ### Visitor Goals
 The central target audience for **Black & White** are:
 

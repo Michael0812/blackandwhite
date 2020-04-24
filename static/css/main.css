@@ -71,9 +71,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 400px;
+    min-height: 60vh;
     width: 100%;
     background-position: center 5%;
+}
+video{
+   width: 80vw;
 }
 
 .video-title{
@@ -176,21 +179,22 @@ a{
 .text-footer{
     width: 40%;
 }
+.video{
+    width: 50%;
+    height: 400px;
+}
 }
 
 @media only screen and (max-width: 767px) {
 .image-products{
     min-height: 50vh;
-    }
-.video-background{
-    max-height: 40vh;
+}
+.promises-text{
+    padding-bottom: 3rem;
 }
 }
 
 @media only screen and (max-width: 968px) {
-    .video-youtube{
-        width: 300px;
-}
 .logo-navbar{
     width: 260px;
     margin-top: 5rem;

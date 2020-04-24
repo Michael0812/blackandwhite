@@ -24,7 +24,7 @@ The central target audience for **Black & White** are:
 -   People who support small business
 -   People who care about environment and the Earth
 
-User goals are:
+### User Goals
 
 -   Find a best real coffee
 -   Read about coffee

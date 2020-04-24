@@ -65,6 +65,52 @@ As a visitor to **Black & White** website I expect/want/need:
 - To get information and addresses of all the shops
 
 
+## Design Choices
+
+White & Black Coffee branding has an overall elegant but simple design. The home page design is very stylish and modern, this should help the site to appeal to the right type of customers to grow the business. The following design choices were made with this in mind: 
+
+### Fonts
+
+<div  align="center">
+<img  src="https://i.ibb.co/mDpXWMw/fonts.png"  alt="Fonts used on Black & White website"  aria-label="Fonts used on Black & White website"  />
+</div>
+
+### Header Font
+EB Garamond was chosen as for the main headings for its elegance look. That typeface is a key moment in the history of typography, and European type designers have been reacting to this work ever since. It is probably the most revived typeface in the world and many are excellent. In the world of free/libre culture, however, only a few Garamond-inspired types exist, and none share the scope of this project.
+
+### Body Font
+Open Sans is one of the most popular body fonts for websites. People love Open Sans for its simplicity and readability. Open Sans is designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms.
+From a design perspective there are only two fonts used throughout the whole website to make sure website does not look unstructured and unprofessional. Keeping in mind that too many type sizes and styles at once can also wreck any layout. The kerning and leading was also adjusted to make sure readability for all users is easy. These two fonts complement each other and work really well together. 
+
+### Colours
+<div  align="center">
+<img  src="https://i.ibb.co/b1MDQcH/colors.png"  alt="Colours used on Black & White website"  aria-label="Colours used on Black & White website"  />
+</div>
+
+The brand colours in this design were chosen really carefully as the name of the website is Black&White coffee, this would make the user obviously think about black and & white. These colours are used through out the design but as secondary colours. The aims was to kind of surprise the user with the colours of coffee.
+
+For the primary colours we used browns and creams – this is what you get from mixing black and white together – coffee + milk. These colours compliment the theme of the website, make people think and crave coffee. 
+
+### Icons
+<div  align="center">
+<img  src="https://i.ibb.co/KKs79HB/icons.png"  alt="Icons used on Black & White website"  aria-label="Icons used on Black & White website"  />
+</div>
+
+There are few icons and text breakers used throughout the website.
+
+As this is an ecommerce website where people will buy their favourite coffees, user will expect to see search and cart icons in the navigation banner. 
+
+There are also social media icons in the footer to navigate the customers to have a look at Black&White coffees facebook, Instagram etc.
+
+To make the website design more outspoken and elegant there are few hand drawn illustrated icons used. These are coffee trees, beans and leaves, mainly used to support the content about services we provide and CTAs.
+
+Text breakers (text ornaments) are used to break up the content, usually used to underline the heading text. Makes the content look more elegant and easier to use. 
+
+<div  align="center">
+<img  src="https://i.ibb.co/BLw2X8V/break.png"  alt="breaker used on Black & White website"  aria-label="breaker used on Black & White website"  />
+</div>
+
+
 ## Wireframes
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/).

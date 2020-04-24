@@ -128,7 +128,7 @@ body{
     background-color: #707070;
 }
 .text-footer{
-    width: 400px;
+    width: 100%;
 }
 a{
     color: #FFFFFF;
@@ -160,7 +160,7 @@ a{
     width: 15rem;
 }
 .introductionn{
-        margin-left: 30%;
+        margin-left: 0%;
         margin-right: 30%;
 }
 }
@@ -172,6 +172,9 @@ a{
 .introductionn{
         margin-left: 22%;
         margin-right: 22%;
+}
+.text-footer{
+    width: 40%;
 }
 }
 

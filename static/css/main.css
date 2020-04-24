@@ -191,6 +191,15 @@ a{
 }
 }
 
+
+/* Shops */
+
+div#map {
+  min-height: 360px;
+  height: 60vh;
+  margin-bottom: 40px;
+}
+
 /* Media Quries */
 
 @media only screen and (max-width: 1024px) {

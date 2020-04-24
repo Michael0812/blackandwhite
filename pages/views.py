@@ -36,3 +36,10 @@ def about_view(request):
     A view that displays the page about company
     """
     return render(request, 'about.html')
+
+
+def shops_view(request):
+    """
+    A view that displays the page about company
+    """
+    return render(request, 'shops.html')

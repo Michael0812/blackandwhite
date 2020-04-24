@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!--Content-->
+<div class="container resposnive">
+    <div class="row">
+        <div class="col">
+            <h1 class="about text-center mt-5 pt-5">Lorem Ipsum</h1>
+            <p class="text-about text-center rounded mx-auto d-block pt-3 mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sint, doloremque perspiciatis, reiciendis voluptatibus rem voluptas</p>
+        </div>
+    </div>
+</div>
+
+<!--Google Maps API-->
+
+<div class="container">
+    <div class="row mt-5 pt-3">
+        <div class="col-sm-12 col-lg-4 mb-5">
+            <table>
+                <tr><th>Monday</th><td>9am - 5pm</td></tr>
+                <tr><th>Tuesday</th><td>9am - 5pm</td></tr>
+                <tr><th>Wednesday</th><td>9am - 5pm</td></tr>
+                <tr><th>Thursday</th><td>9am - 5pm</td></tr>
+                <tr><th>Friday</th><td>9am - 5pm</td></tr>
+                <tr><th>Saturday</th><td>9am - 5pm</td></tr>
+                <tr><th>Sunday</th><td>Closed</td></tr>
+            </table>
+        </div>
+        <div class="col-sm-12 col-lg-8">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

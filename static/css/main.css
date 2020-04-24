@@ -139,15 +139,13 @@ a{
 
 
 /* About */
-.text-about{
-    width: 80%;
-}
 
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 }
+
 
 .container-images {
 	max-width: 100rem;
@@ -228,9 +226,6 @@ a{
 .introductionn{
         margin-left: 0%;
         margin-right: 30%;
-}
-.text-about{
-    width: 50%;
 }
 }
 

@@ -179,6 +179,35 @@ a{
 }
 
 
+/* Contact */
+.contact-form{
+    background-image: url("https://theorbital.co.uk/wp-content/uploads/2020/03/daBEANZ.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center 5%;
+}
+.contact-content,
+.contact-button{
+    color: #6F6F6F;
+}
+
+.contact-button{
+    background-color: #333333;
+}
+.contact-form-wrapper {
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* Shops */
+div#map {
+    min-height: 360px;
+    height: 60vh;
+    margin-bottom: 40px;
+}
+
 @supports (display: grid) {
 .gallery {
 	display: grid;
@@ -190,16 +219,6 @@ a{
 	margin: 0;
 }
 }
-
-
-/* Shops */
-
-div#map {
-  min-height: 360px;
-  height: 60vh;
-  margin-bottom: 40px;
-}
-
 /* Media Quries */
 
 @media only screen and (max-width: 1024px) {

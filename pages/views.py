@@ -23,14 +23,6 @@ def terms_view(request):
     return render(request, 'terms.html')
 
 
-def contact_view(request):
-    """
-    Renders contact form on contact page with any relevant information
-    the user has already provided in the name and email fields.
-    """
-    return render(request, 'contact.html')
-
-
 def about_view(request):
     """
     A view that displays the page about company
@@ -43,3 +35,11 @@ def shops_view(request):
     A view that displays the page about company
     """
     return render(request, 'shops.html')
+
+
+def contact_view(request):
+    """
+    A view that displays contact page - User are allowed there to 
+    send a message to the admin
+    """
+    return render(request, 'contact.html')

@@ -6,13 +6,18 @@
 <div class="contact-form">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
-        {% if messages %}
+            {% if messages %}
+            {% for message in messages %}
 
-        {% endif %}
+            <div class="alert alert-{{ message.tags }} text-center">
+                {{ message }}
+            </div>
+            {% endfor %}
+            {% endif %}
         </div>
     </div>
 <main>
-    <div class="contact-wrapper">
+    <div class="contact-wrapper pt-4 mt-4">
         <div class="container-responsive contact-form">
             <div class="row justify-content-center contact-row">
                 <div class="col-12 col-md-6 contact-wrapper">

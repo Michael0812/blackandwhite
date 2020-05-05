@@ -18,10 +18,14 @@ from django.urls import path, include
 from pages.views import index_view
 from django.conf import settings
 from django.template import Template
+from products import urls as urls_products
+from products.views import all_products
+from django.conf.urls import url
 
 
 urlpatterns = [
     path('', index_view, name="home"),
     path('admin/', admin.site.urls),
     path('pages/', include('pages.urls')),
+    path('products/', include('products.urls')),
 ]

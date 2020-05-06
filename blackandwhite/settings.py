@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'django_forms_bootstrap',
     'pages',
     'products',
+    'cart',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -110,6 +112,9 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
@@ -134,4 +139,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 # python3 manage.py runserver $IP:$PORT

@@ -10,16 +10,16 @@
     </div>
     {% endif %}
 
- <div class="container text-center rounded mx-auto">
-    <div class="row text-center d-inline-block">
+ <div class="container rounded mx-auto">
+    <div class="row text- d-inline-block">
         <div class="col-12">
             <div class="register contact-form-wrapper my-3 rounded mx-auto d-block pb-5 mb-5 pt-5 mt-5">
                 <h2>Register</h2>      
-                <form method="POST" class="mt-5 text-center rounded mx-auto">
+                <form method="POST" class="mt-5">
                 {% csrf_token %} {{ registration_form.as_p}}
-                <button class="btn submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign up</button>
+                <button class="text-dark submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign up</button>
                  <p class="text-muted mb-3 border-bottom">Already have an account? <a href="{% url 'login' %}"
-                                    class="blue-link">Login.</a></p>
+                                    class="text-dark">Login.</a></p>
                 </form>
             </div>
         </div>

@@ -18,7 +18,7 @@
                 <form method="POST" class="mt-5 text-center rounded mx-auto">
                 {% csrf_token %} {{ registration_form.as_p}}
                 <button class="btn submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign up</button>
-                 <p class="text-muted mb-3 border-bottom">Already have an account? <a href="#"
+                 <p class="text-muted mb-3 border-bottom">Already have an account? <a href="{% url 'login' %}"
                                     class="blue-link">Login.</a></p>
                 </form>
             </div>

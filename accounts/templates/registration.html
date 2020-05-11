@@ -4,14 +4,26 @@
 {% block content %}
     {% if messages %}
     <div>
-        {% for message in messages %} {{ message }} {% endfor %}
+        {% for message in messages %} 
+            {{ message }} 
+        {% endfor %}
     </div>
     {% endif %}
 
-
-<form method="POST">
-    {% csrf_token %} {{ registration_form.as_p }}
-    <button type="submit">Register</button>
-</form>
+ <div class="container text-center rounded mx-auto">
+    <div class="row text-center d-inline-block">
+        <div class="col-12">
+            <div class="register contact-form-wrapper my-3 rounded mx-auto d-block pb-5 mb-5 pt-5 mt-5">
+                <h2>Register</h2>      
+                <form method="POST" class="mt-5 text-center rounded mx-auto">
+                {% csrf_token %} {{ registration_form.as_p}}
+                <button class="btn submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign up</button>
+                 <p class="text-muted mb-3 border-bottom">Already have an account? <a href="#"
+                                    class="blue-link">Login.</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

@@ -24,7 +24,6 @@ def login(request):
             user = auth.authenticate(username=request.POST['username'],
                                     password=request.POST['password'])
 
-
             if user:
                 auth.login(user=user, request=request)
                 messages.success(request, "You have successfully logged in!")
@@ -52,6 +51,7 @@ def registration(request):
             if user:
                 auth.login(user=user, request=request)
                 messages.success(request, "You have successfully registered")
+                return redirect('login')
             else:
                 messages.error(request, "Unable to register your account at this time")
     else:
@@ -59,7 +59,7 @@ def registration(request):
     return render(request, 'registration.html', {
         "registration_form": registration_form})
 
-    
+
 def user_profile(request):
     """The user's profile page"""
     user = User.objects.get(email=request.user.email)

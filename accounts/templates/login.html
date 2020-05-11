@@ -8,11 +8,24 @@
     </div>
     {% endif %}
 
+<!--Login Form-->
+<div class="container text-center rounded mx-auto">
+    <div class="row text-center d-inline-block">
+        <div class="col-12">
+            <div class="login rounded mx-auto d-block pb-5 mb-5 pt-5 mt-5">
+                <h2>Login</h2>      
+                <form method="POST" class="mt-5">
+                {% csrf_token %} {{ login_form }}
+                <button class="btn submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign in</button>
+                 <p class="text-muted mb-3 border-bottom">Need an account? <a href="#"
+                                    class="blue-link">Register here.</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    
 
-<form method="POST">
-    {% csrf_token %} {{ login_form }}
-    <button type="submit">Login</button>
-</form>
 
 {% endblock %}
 

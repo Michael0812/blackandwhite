@@ -112,7 +112,7 @@ video{
     background-image: url("https://i.ibb.co/0fbmBCk/contact-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 18vh;
     width: 100%;
     background-position: center 5%; 
     margin-top: 10rem;
@@ -126,7 +126,8 @@ video{
 .contact-border{
     border: 1px solid #A88D70;
     background-color: #A88D70;
-    border-width: 1.3rem;   
+    border-width: 0.7rem;
+    padding-bottom: -10rem;
 }
 
 .contact-us{
@@ -145,6 +146,10 @@ video{
 }
 a{
     color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -214,7 +219,6 @@ th, td {
   padding: 4px;
 }
 
-
 /* Login & Register */
 
 .alert{
@@ -270,6 +274,12 @@ th, td {
 .video{
     width: 50%;
     height: 380px;
+}
+.contact-border{
+    border-width: 1.2rem; 
+}
+.contact-banner{
+    height: 15vh;
 }
 }
 

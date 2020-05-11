@@ -207,6 +207,14 @@ div#map {
     margin-bottom: 40px;
 }
 
+h6{
+    margin-bottom: 1.5rem;
+}
+th, td {
+  padding: 4px;
+}
+
+
 /* Login & Register */
 
 .alert{
@@ -296,4 +304,3 @@ div#map {
     max-width: 100%;
   }
 }
-

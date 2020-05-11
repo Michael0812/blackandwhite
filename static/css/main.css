@@ -81,7 +81,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 60vh;
+    min-height: 68vh;
     width: 100%;
     background-position: center 5%;
 }
@@ -148,7 +148,8 @@ a{
     color: #FFFFFF;
 }
 
-a:hover {
+a:hover{ 
+    color: #f3e7f3; 
     text-decoration: none;
 }
 

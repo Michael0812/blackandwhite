@@ -21,7 +21,7 @@ $(document).ready(function() {
           lng: -1.904755
         },
         content:
-          ''
+          '<h6>Welcome to our shop in Bournemouth <br>- here is our opening times:</h6><table><tr><th>Monday</th><td>9am - 5pm</td></tr> <tr><th>Tuesday</th><td>9am - 5pm</td></tr><tr><th>Wednesday</th><td>9am - 5pm</td></tr><tr><th>Thursday</th><td>9am - 5pm</td></tr><tr><th>Friday</th><td>9am - 5pm</td></tr><tr><th>Saturday</th><td>9am - 5pm</td></tr><tr><th>Sunday</th><td>Closed</td></tr></table>'
       },
       {
         coords: {
@@ -29,7 +29,7 @@ $(document).ready(function() {
           lng: -2
         },
         content:
-          ''
+            '<h6>Welcome to our shop in Poole <br>- here is our opening times:</h6><table><tr><th>Monday</th><td>9am - 5pm</td></tr> <tr><th>Tuesday</th><td>9am - 5pm</td></tr><tr><th>Wednesday</th><td>9am - 5pm</td></tr><tr><th>Thursday</th><td>9am - 5pm</td></tr><tr><th>Friday</th><td>9am - 5pm</td></tr><tr><th>Saturday</th><td>9am - 5pm</td></tr><tr><th>Sunday</th><td>Closed</td></tr></table>'
       },
       {
         coords: {
@@ -37,7 +37,8 @@ $(document).ready(function() {
           lng: -1.777897
         },
         content:
-          ''
+            '<h6>Welcome to our shop in Christchurch <br>- here is our opening times:</h6><table><tr><th>Monday</th><td>9am - 5pm</td></tr> <tr><th>Tuesday</th><td>9am - 5pm</td></tr><tr><th>Wednesday</th><td>9am - 5pm</td></tr><tr><th>Thursday</th><td>9am - 5pm</td></tr><tr><th>Friday</th><td>9am - 5pm</td></tr><tr><th>Saturday</th><td>9am - 5pm</td></tr><tr><th>Sunday</th><td>Closed</td></tr></table>'
+
       },
     ];
     // loop through markers

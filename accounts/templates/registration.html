@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load bootstrap_tags %}
+
 
 {% block content %}
     {% if messages %}
@@ -10,13 +12,13 @@
     </div>
     {% endif %}
 
- <div class="container rounded mx-auto">
-    <div class="row text- d-inline-block">
+ <div class="container">
+    <div class="row ">
         <div class="col-12">
-            <div class="register contact-form-wrapper my-3 rounded mx-auto d-block pb-5 mb-5 pt-5 mt-5">
+            <div class="register contact-form-wrapper pb-5 mb-5 pt-5 mt-5">
                 <h2>Register</h2>      
                 <form method="POST" class="mt-5">
-                {% csrf_token %} {{ registration_form.as_p}}
+                {% csrf_token %} {{ registration_form | as_bootstrap}}
                 <button class="text-dark submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign up</button>
                  <p class="text-muted mb-3 border-bottom">Already have an account? <a href="{% url 'login' %}"
                                     class="text-dark">Login.</a></p>

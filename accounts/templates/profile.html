@@ -1,5 +1,21 @@
 {% extends 'base.html' %}
 
+
 {% block content %}
-<p>{{ profile.emai }}</p>
+
+
+<h1 class="text-center profile-welcome mt-5 pt-5">Welcome {{ profile.username }}</h1>
+<p class="text-center pt-4 profile-content">Here you can see your order</p>
+
+
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom py-4 pink-uppercase">Profile Info</legend>
+                   
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-pink btn-cta m-0" type="submit">Update</button>
+                </div>
+            </form>
 {% endblock %}

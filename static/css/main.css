@@ -30,9 +30,7 @@ body{
     width: 600px;
     margin-top: 5rem;
 }
-.navbar-toggler{
-    color: #FFFFFF;
-}
+
 .banner-background {
     background-image: url("https://i.ibb.co/LPgDQmn/banner-image.png");
     background-attachment: fixed;
@@ -156,10 +154,6 @@ a{
     color: #FFFFFF;
 }
 
-a:hover{ 
-    color: #f3e7f3; 
-    text-decoration: none;
-}
 
 
 /* About */
@@ -331,8 +325,8 @@ th, td {
     width: 100%;
     padding: 4rem;
     margin: 10rem;
-    background: #F3E7D9;
+    background: #FFFFFF;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px #F3E7D9;
+    box-shadow: 0 15px 25px #6F6F6F;
     border-radius: 10px;
 }

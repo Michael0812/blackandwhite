@@ -16,39 +16,39 @@
         
         <!--Products-->
             <li class="nav-item active">
-                <a class="nav-link text-white" href="{% url 'products' %}">PRODUCTS<span
+                <a class="nav-link text-white text-uppercase" href="{% url 'products' %}">products<span
                 class="sr-only">(current)</span></a>
             </li>
         <!--Shops-->
             <li class="nav-item">
-                <a class="nav-link text-white" href="{% url 'shops' %}">SHOPS<span
+                <a class="nav-link text-white text-uppercase" href="{% url 'shops' %}">shops<span
                 class="sr-only">(current)</span></a>
             </li>
         <!--About us-->
             <li class="nav-item">
-                <a class="nav-link text-white" href="{% url 'about' %}">ABOUT US<span
+                <a class="nav-link text-white text-uppercase" href="{% url 'about' %}">about us<span
                 class="sr-only">(current)</span></a>
             </li>
 
         {% if user.is_authenticated %}
         <!--Logout-->
             <li class="nav-item">
-                <a class="nav-link text-white" href="{% url 'logout' %}">LOGOUT<span
+                <a class="nav-link text-white text-uppercase" href="{% url 'logout' %}">LOGOUT<span
                 class="sr-only"></span></a>
             </li>
         <!--Profile-->
             <li class="nav-item">
-                <a class="nav-link text-white" href="url 'profile'">PROFILE<span
+                <a class="nav-link text-white text-uppercase" href="% url 'profile' %}">profile<span
                 class="sr-only"></span></a>
             </li>
         {% else %}
         <!--Login-->
             <li class="nav-item">
-                <a class="nav-link text-white" href="{% url 'login' %}">LOGIN<span
+                <a class="nav-link text-white text-uppercase" href=">{% url 'login' %}">login<span
                 class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="{% url 'registration' %}">REGISTER<span
+                <a class="nav-link text-white text-uppercase" href="{% url 'registration' %}">register<span
                 class="sr-only"></span></a>
             </li>
         {% endif %}

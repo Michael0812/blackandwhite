@@ -9,7 +9,7 @@
     <div class="row no-gutters m-0">  
 
         <div class="col-12 mt-md-0 mt-3">
-            <a href="{% url 'home' %}"><img src="{% static 'img/logo.png'%}" alt="logo" class="logo-footer img-responsive"></a>
+             <a href="{% url 'home' %}"><img src="{% static 'img/logo.png'%}" alt="logo" class="logo-footer img-responsive"></a>
         </div>
     </div>
 </div>
@@ -81,28 +81,28 @@
                 <a href="#">
                     <li class="list-inline-item text-white">
                         <p>
-                            PRODUCTS |
+                            <a href="{% url 'products' %}" class="text-white text-uppercase">products</a> |
                         </p>
                     </li>
                     </a>
                     <a href="#">
                     <li class="list-inline-item text-white">
                         <p>
-                            LOGIN |
+                            <a href="{% url 'login' %}" class="text-white text-uppercase">login</a> |
                         </p>
                     </li>
                     </a>
                     <a href="#">
                     <li class="list-inline-item">
       			        <p>
-                            <a href="{% url 'terms' %}">TERMS |</a>
+                            <a href="{% url 'terms' %}" class="text-white text-uppercase">terms</a>  |
                         </p>
                     </li>
                     </a>
                     
                     <li class="list-inline-item">
  						<p>
-                           <a href="{% url 'delivery' %}">DELIVERY</a>
+                           <a href="{% url 'delivery' %}" class="text-white text-uppercase">delivery</a>
                         </p>
                     </li>           
                 </ul>

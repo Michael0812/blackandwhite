@@ -18,6 +18,14 @@ body{
 
 
 /* Banner */
+.test{
+ position: relative;
+ top: 50px;
+}
+
+.test1{
+    position: absolute;
+}
 .logo-navbar{
     width: 600px;
     margin-top: 5rem;
@@ -314,4 +322,17 @@ th, td {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+/* Login */
+.login,
+.register{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 4rem;
+    margin: 10rem;
+    background: #F3E7D9;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px #F3E7D9;
+    border-radius: 10px;
 }

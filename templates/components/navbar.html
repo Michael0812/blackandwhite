@@ -58,19 +58,21 @@
     <!--Search-->
     <div class="navbar-nav ml-auto pt-lg-5 mt-lg-5">
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-search navbar-search-icon text-white" title="Search"></i>
-                </a>
+                <form action="{% url 'search' %}" method="get">
+                <input type="text" name="q">
+                <button type="search">Search</button>
+            </form>
             </li>
         </div>
 
     <!--Shopping-->
         <div id="navbar-icons-desktop" class="icon-shopping pt-lg-5 mt-lg-5">
-            <a class="nav-link nav-link-icon" href="#" title="Shopping cart" aria-label="View shopping cart">
-                <div>
-                    <i class="fas fa-shopping-cart"></i> 
-                    <div id="cart-counter"></div>
-                </div>
+           <a href="{% url 'view_cart' %}">
+                <i class="fas fa-shopping-cart">
+                    {% if product_count > 0 %}
+                    <label class="badge badge-warning">{{ product_count }}</label>
+                    {% endif %}
+                </i> 
             </a>
         </div>
 

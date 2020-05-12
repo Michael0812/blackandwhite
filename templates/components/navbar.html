@@ -38,7 +38,7 @@
             </li>
         <!--Profile-->
             <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href="% url 'profile' %}">profile<span
+                <a class="nav-link text-white text-uppercase" href="{% url 'profile' %}">profile<span
                 class="sr-only"></span></a>
             </li>
         {% else %}
@@ -69,9 +69,9 @@
         <div id="navbar-icons-desktop" class="icon-shopping pt-lg-5 mt-lg-5">
            <a href="{% url 'view_cart' %}">
                 <i class="fas fa-shopping-cart">
-                    {% if product_count > 0 %}
+                {% if product_count > 0 %}
                     <label class="badge badge-warning">{{ product_count }}</label>
-                    {% endif %}
+                 {% endif %}
                 </i> 
             </a>
         </div>

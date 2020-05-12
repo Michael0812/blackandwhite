@@ -229,19 +229,37 @@ th, td {
     color: #FFFFFF;
 }
 
+/* Login */
+.login,
+.register,
+.shopping-cart {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 4rem;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px #6F6F6F;
+    border-radius: 10px;
+}
+
 /* Profile */
 .profile-welcome{
     color: #A88D70;
 }
 
 
-/* Media Quries */
-
-@media only screen and (max-width: 1024px) {
-.promises-text{
-    width: 85%;
-    text-align: center;
+.cart-image{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+    border: 1px solid lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+.form-control{
+    width: 50px;
+    float: right;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -323,16 +341,4 @@ th, td {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-/* Login */
-.login,
-.register{
-    margin-top: 2rem;
-    width: 100%;
-    padding: 4rem;
-    background: #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px #6F6F6F;
-    border-radius: 10px;
 }

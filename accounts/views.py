@@ -9,7 +9,7 @@ from accounts.forms import UserLoginForm, UserRegistrationForm, UserUpdateForm
 def logout(request):
     """Log the user out"""
     auth.logout(request)
-    messages.success(request, "You have been successfully been logged out!")
+    messages.success(request, "You have been successfully logged out!")
     return redirect(reverse('home'))
 
 
@@ -39,7 +39,7 @@ def login(request):
 def registration(request):
     """Render the registration page"""
     if request.user.is_authenticated:
-        return redirect(reverse('index'))
+        return redirect(reverse('home'))
 
     if request.method == "POST":
         registration_form = UserRegistrationForm(request.POST)

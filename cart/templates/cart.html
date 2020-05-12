@@ -1,42 +1,48 @@
 {% extends 'base.html' %}
-{% load static from staticfiles %}
+
 {% load bootstrap_tags %}
 
 {% block content %}
-<div class="row row-flex">
+
+
+<div class="container">
+    <div class="row shopping-cart mt-5 pt-5 mb-5 pb-5">
+
     {% for item in cart_items %}
-    
-    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-display">
-        
-        <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"></div>
-        
-        <div class="caption">
-            <h3>{{ item.product.name }}</h3>
-            <p class="product-description">{{ item.product.description }}</p>
-            <p>{{ item.product.price }}</p>
-            <p>
-                
-                <form class="form-inline" method="post" action="#">
-                    {% csrf_token %}
-                    <div class="form-group">
-                        <label for="exampleInputAmount" class="sr-only">New Qty</label>
-                        <div class="input-group">
-                            <div class="input-group-addon">Qty</div>
-                            <input name="quantity" type="number" min="0" max="999" class="form-control">
-                            <div class="input-group-addon">{{item.quantity}}</div>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Amend</button>
-                </form>
-            </p>
+
+    <div class="col-4">
+        <div class="cart-image mx-auto" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"
+            title="{{ item.product.title }}"></div>
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <div class="col-12">
+                <h4>{{ item.product.name }}</h4>
+            </div>
+        </div>
+        <div class="row justify-content-end"> 
+            <div class="col-4 d-flex align-items-end justify-content-end">
+                <p class="price">€{{ item.product.price }}</p>
+            </div>
+            <div class="col-5 col-xl-4 text-center">
+                <p class="sml-data">Quantity</p>
+                <p>{{ Quantity }}</p>
+            </div>
         </div>
     </div>
-    {% endfor %}
-</div>
-<div class="row">
-    <p>Total</p>
-    <p><span class="glyphicon glyphicon-euro" aria-hidden="true"></span>{{ total }}</p>
-    <a href="/" class="btn btn-success" role="button"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>Checkout</a>
-</div>
+    
+    <div class="col-12">
+        <hr>
+    </div>
 
+{% endfor %}
+
+    <div class="col-12 text-right">
+        <h3 id="subtotal">Subtotal: £<span class="subtotal-js">{{ total }}</span></h3>
+            <p>Tax included</p>
+            <a href="/" class="btn mb-3 btn-success" role="button"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>Checkout</a>
+    </div>
+
+    </div>
+</div>
 {% endblock %}

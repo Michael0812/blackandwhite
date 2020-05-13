@@ -15,40 +15,41 @@
 
         
         <!--Products-->
-            <li class="nav-item active">
-                <a class="nav-link text-white text-uppercase" href="{% url 'products' %}">products<span
+            <li class="nav-link active">
+                <a class="text-white text-uppercase" href="{% url 'products' %}">products<span
                 class="sr-only">(current)</span></a>
             </li>
         <!--Shops-->
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href="{% url 'shops' %}">shops<span
-                class="sr-only">(current)</span></a>
+            <li class="nav-link">
+                <a class=" text-white text-uppercase" href="{% url 'shops' %}">shops<span class="sr-only">(current)</span></a>
             </li>
         <!--About us-->
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href="{% url 'about' %}">about us<span
+            <li class="nav-link">
+                <a class="text-white text-uppercase" href="{% url 'about' %}">about us<span
                 class="sr-only">(current)</span></a>
             </li>
 
         {% if user.is_authenticated %}
         <!--Logout-->
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href="{% url 'logout' %}">LOGOUT<span
+            <li class="nav-link">
+                <a class="text-white text-uppercase" href="{% url 'logout' %}">LOGOUT<span
                 class="sr-only"></span></a>
             </li>
         <!--Profile-->
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href="{% url 'profile' %}">profile<span
+            <li class="nav-link">
+                <a class="text-white text-uppercase" href="{% url 'profile' %}">profile<span
                 class="sr-only"></span></a>
             </li>
         {% else %}
         <!--Login-->
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href=">{% url 'login' %}">login<span
+        <a href="#">
+            <li class="nav-link">
+                <a class="text-white text-uppercase" href="{% url 'login' %}">login<span
                 class="sr-only"></span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-white text-uppercase" href="{% url 'registration' %}">register<span
+            </a>
+            <li class="nav-link">
+                <a class="text-white text-uppercase" href="{% url 'registration' %}">register<span
                 class="sr-only"></span></a>
             </li>
         {% endif %}
@@ -56,11 +57,11 @@
     </div>
 
     <!--Search-->
-    <div class="navbar-nav ml-auto pt-lg-5 mt-lg-5">
+   <div class="navbar-nav ml-auto pt-lg-5 mt-lg-5">
             <li class="nav-item">
                 <form action="{% url 'search' %}" method="get">
-                <input type="text" name="q">
-                <button type="search">Search</button>
+                <input class="form-search" type="search" name="q" placeholder="Search" aria-label="Search"> 
+                    <button class="btn text-white" type="submit"><i class="fas fa-search"></i></button>
             </form>
             </li>
         </div>

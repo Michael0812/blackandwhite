@@ -20,14 +20,23 @@
                 <h4>{{ item.product.name }}</h4>
             </div>
         </div>
-        <div class="row justify-content-end"> 
-            <div class="col-4 d-flex align-items-end justify-content-end">
+        <div class="row ml-lg-5 justify-content-end"> 
+            <div class="col-6 align-items-end justify-content-end">
                 <p class="price">€{{ item.product.price }}</p>
-            </div>
-            <div class="col-5 col-xl-4 text-center">
-                <p class="sml-data">Quantity</p>
-                <p>{{ Quantity }}</p>
-            </div>
+           
+                   <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="exampleInputAmount" class="sr-only">New Qty</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">Qty</div>
+                            <input name="quantity" type="number" min="0" max="999" class="form-control">
+                            <div class="input-group-addon ml-1">{{item.quantity}}</div>
+                        </div>
+                    </div>
+                    <button type="submit" class="ml-lg-4 btn btn-primary"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Amend</button>
+                </form>
+               </div>
         </div>
     </div>
     

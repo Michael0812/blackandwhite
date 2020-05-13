@@ -1,8 +1,16 @@
 {% extends 'base.html' %}
 
-
 {% block content %}
 
+<!--breadcrumbs -->
+<div class="container-fluid breadcrumbs">
+    <div class="row">
+        <div id="breadcrumbs" class="col-12">
+            <a href="/" class="text-dark ml-lg-5 pl-lg-5">Home</a> >
+            <a href="{% url 'profile' %}" class="text-dark">Profile</a>
+        </div>
+    </div>
+</div>
 
 <h1 class="text-center profile-welcome mt-5 pt-5">Welcome {{ profile.username }}</h1>
 <p class="text-center pt-4 profile-content">Here you can see your order</p>

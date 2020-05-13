@@ -3,6 +3,17 @@
 {% load bootstrap_tags %}
 
 {% block content %}
+
+<!--breadcrumbs -->
+<div class="container-fluid breadcrumbs">
+    <div class="row">
+        <div id="breadcrumbs" class="col-12">
+            <a href="/" class="text-dark pl-4 ml-5">Home</a> >
+            <a href="{% url 'products' %}" class="text-dark">Products</a>
+        </div>
+    </div>
+</div>
+
 <div class="container pb-5 mb-5 mt-5 pt-5">
 <div class="row row-flex">
     {% for product in products %}

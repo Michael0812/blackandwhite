@@ -2,7 +2,15 @@
 {% load static %}
 {% load bootstrap_tags %}
 
-
+{% block head_js %}
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+        Stripe.publishableKey = '{{ publishable }}';
+    //]]>
+    </script>
+    <script type="text/javascript" src="{% static 'js/stripe.js' %}"></script>
+{% endblock %}
 
 {% block content %}
 
@@ -14,7 +22,7 @@
             <a href="{% url 'products' %}" class="text-dark">Products</a> &gt;
             <a href="{% url 'view_cart' %}" class="text-dark">Cart</a> &gt;
             <a href="{% url 'checkout' %}" class="text-dark">Checkout</a>
-            </div>
+        </div>
     </div>
 </div>
 
@@ -50,7 +58,6 @@
 
 
 <!--Payments Form-->
-
 <div class="container text-center pt-5">
 <form role="form" method="post" id="payment-form" action="{% url 'checkout' %}">
     <legend>Payment Details</legend>

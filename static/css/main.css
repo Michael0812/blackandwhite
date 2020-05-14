@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans|Poly&display=swap');
+
 
 html {
     margin: 0;
@@ -90,6 +91,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+.products-title{
+    font-family: 'Poly', serif;
 }
 
 /* Video */
@@ -286,7 +290,9 @@ th, td {
         font-size: 2.1rem;
         margin-left: 12%;
     }
-.products-title,
+.products-title{
+    font-size: 2.3rem;
+}
 .products-text,
 .view-more{
     font-size: 1.5rem;

@@ -17,6 +17,7 @@
 
     <!-- Custom css -->
     <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+
 </head>
 
 <body>
@@ -43,6 +44,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqujsOQEGSZ4UMOx5H7c4ahFc-quysw_I"></script>
     <script src="{% static 'js/main.js' %}"></script>
 
+    <!--Scripts for Stripe-->
+    {% block head_js %}
+
+    {% endblock head_js %}
 
 </body>
 </html>

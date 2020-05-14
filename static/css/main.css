@@ -269,6 +269,11 @@ th, td {
     background-position: center center;
 }
 
+.form-search{
+    border-radius: 10px;
+    width: 125px;
+}
+
 
 @media only screen and (min-width: 1024px) {
 .mission-title{

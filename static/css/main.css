@@ -112,7 +112,7 @@ video{
 
 .video-title{
     color: #AF9375;
-    margin-top: 5rem; 
+    margin-top: 2rem; 
 }
 
 
@@ -304,6 +304,9 @@ th, td {
         margin-left: 0%;
         margin-right: 30%;
 }
+.video-title{
+    margin-top: 5rem;
+}
 }
 
 @media only screen and (min-width: 786px) {
@@ -335,6 +338,9 @@ th, td {
 }
 .promises-text{
     padding-bottom: 3rem;
+}
+.video-background{
+    min-height: 80vh;
 }
 }
 

@@ -14,6 +14,20 @@
     </div>
 </div>
 
+<!--Message-->
+    <div class="container-fluid message">
+        <div class="row message rounded mx-auto d-block ">
+            {% if messages %}
+            {% for message in messages %}
+
+            <div class="message alert-{{ message.tags }} text-center">
+                {{ message }}
+            </div>
+            {% endfor %}
+            {% endif %}
+            </div>
+        </div>
+
 <div class="container pb-5 mb-5 mt-5 pt-5">
 <div class="row row-flex">
     {% for product in products %}

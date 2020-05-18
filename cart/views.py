@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect, reverse
+from django.contrib import messages
 
 
 # Create your views here.
@@ -18,7 +19,8 @@ def add_to_cart(request, id):
         cart[id] = cart.get(id, quantity) 
 
     request.session['cart'] = cart
-    return redirect(reverse('home'))
+    messages.success(request, 'You have successfully added an item to your cart.')
+    return redirect(reverse('products'))
 
 
 def adjust_cart(request, id):

@@ -27,10 +27,9 @@
 </div>
 
 <!--Shopping Cart-->
+{% for item in cart_items %}
 <div class="container">
     <div class="row rounded mx-auto shopping-cart mt-5 pt-5 mb-5 pb-5">
-
-    {% for item in cart_items %}
         <div class="col-4">
             <div class="cart-image mx-auto" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"
                 title="{{ item.product.title }}"></div>
@@ -52,9 +51,10 @@
                 </div>
             </div>
         </div>
-    {% endfor %}
     <div>
 </div>
+    {% endfor %}
+
 
 
 <!--Payments Form-->

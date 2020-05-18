@@ -13,23 +13,25 @@
     </div>
 </div>
 
+
 <!--Contact Form-->
-<div class="contact-form">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
+<div class="contact-wrapper">
+    <div class="container-responsive contact-form">
+
+        <!--Message-->
+        <div class="container-fluid message">
+            <div class="row message rounded mx-auto d-block ">
             {% if messages %}
             {% for message in messages %}
 
-            <div class="alert alert-{{ message.tags }} text-center">
+            <div class="message alert-{{ message.tags }} text-center">
                 {{ message }}
             </div>
             {% endfor %}
             {% endif %}
+            </div>
         </div>
-    </div>
-<main>
-    <div class="contact-wrapper pt-4 mt-4">
-        <div class="container-responsive contact-form">
+
             <div class="row justify-content-center contact-row">
                 <div class="col-12 col-md-6 contact-wrapper">
                     <div class="contact-form-wrapper mx-auto my-3">
@@ -64,6 +66,6 @@
             </div>
         </div>
     </div>
-</main>   
+ 
 
 {% endblock %}

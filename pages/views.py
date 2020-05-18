@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib import messages
 
 
 # Create your views here.
@@ -39,7 +40,9 @@ def shops_view(request):
 
 def contact_view(request):
     """
-    A view that displays contact page - User are allowed there to 
+    A view that displays contact page - User are allowed there to
     send a message to the admin
     """
+    if request.method == "POST":
+        messages.success(request, "Thanks, we have received your message")
     return render(request, 'contact.html')

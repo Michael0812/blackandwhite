@@ -204,12 +204,15 @@ img{
     background-image: url("https://theorbital.co.uk/wp-content/uploads/2020/03/daBEANZ.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100%;
     width: 100%;
-    background-position: center 5%;
+    background-position: center;
 }
-.contact-content,
-.contact-button{
+.contact-content{
     color: #6F6F6F;
+}
+.contact-button{
+    color: #FFFFFF;
 }
 
 .contact-button{
@@ -220,6 +223,10 @@ img{
   border-radius: 6px;
   padding: 1rem;
   margin-top: 5rem;
+}
+.message{
+    background-color: #333333;
+    color: #FFFFFF;
 }
 
 /* Shops */

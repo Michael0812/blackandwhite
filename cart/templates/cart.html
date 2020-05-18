@@ -5,54 +5,67 @@
 {% block content %}
 
 <!--breadcrumbs -->
-<div class="container-fluid breadcrumbs">
-    <div class="row">
-        <div id="breadcrumbs" class="col-12">
-            <a href="/" class="text-dark ml-lg-5 pl-lg-5">Home</a> &gt;
-            <a href="{% url 'products' %}" class="text-dark">Products</a> &gt;
-            <a href="{% url 'view_cart' %}" class="text-dark">Cart</a>
+    <div class="container-fluid breadcrumbs">
+        <div class="row">
+            <div id="breadcrumbs" class="col-12">
+                <a href="/" class="text-dark ml-lg-5 pl-lg-5">Home</a> &gt;
+                <a href="{% url 'products' %}" class="text-dark">Products</a> &gt;
+                <a href="{% url 'view_cart' %}" class="text-dark">Cart</a>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="container">
-    <div class="row rounded mx-auto shopping-cart mt-5 pt-5 mb-5 pb-5">
+<!--If nothing in cart-->
+
+    {% if not cart_items %}
+    <div class ="cart-wrapper mt-5">
+    <div class="row justify-content-center">
+            <heading class="col-11 col-md-8 col-lg-6 text-center">
+                <h1 class="cart-heading">Your cart is empty!</h1>
+                <a href="{% url 'products' %}" class="btn btn-success btn-cta my-5" aria-label="Go Shopping">Let's go shopping</a>
+            </heading>
+    </div>
+    
+    {% else %}
+
+    <div class="container">
+        <div class="row rounded mx-auto shopping-cart mt-5 pt-5 mb-5 pb-5">
 
     {% for item in cart_items %}
 
-    <div class="col-4">
-        <div class="cart-image mx-auto" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"
-            title="{{ item.product.title }}"></div>
-    </div>
-    <div class="col-8">
-        <div class="row">
-            <div class="col-12">
-                <h4>{{ item.product.name }}</h4>
+        <div class="col-4">
+            <div class="cart-image mx-auto" style="background-image: url('{{ MEDIA_URL }}{{ item.product.image }}')"
+                title="{{ item.product.title }}"></div>
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-12">
+                    <h4>{{ item.product.name }}</h4>
+                </div>
+            </div>
+            <div class="row ml-lg-5 justify-content-end"> 
+                <div class="col-6 align-items-end justify-content-end">
+                    <p class="price">£{{ item.product.price }}</p>
+            
+                    <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="exampleInputAmount" class="sr-only">New Qty</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">Qty</div>
+                                <input name="quantity" type="number" min="0" max="999" class="form-control">
+                                <div class="input-group-addon ml-1">{{item.quantity}}</div>
+                            </div>
+                        </div>
+                        <button type="submit" class="ml-lg-4 btn btn-primary"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Amend</button>
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="row ml-lg-5 justify-content-end"> 
-            <div class="col-6 align-items-end justify-content-end">
-                <p class="price">£{{ item.product.price }}</p>
-           
-                   <form class="form-inline" method="post" action="{% url 'adjust_cart' item.id %}">
-                    {% csrf_token %}
-                    <div class="form-group">
-                        <label for="exampleInputAmount" class="sr-only">New Qty</label>
-                        <div class="input-group">
-                            <div class="input-group-addon">Qty</div>
-                            <input name="quantity" type="number" min="0" max="999" class="form-control">
-                            <div class="input-group-addon ml-1">{{item.quantity}}</div>
-                        </div>
-                    </div>
-                    <button type="submit" class="ml-lg-4 btn btn-primary"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Amend</button>
-                </form>
-               </div>
+        
+        <div class="col-12">
+            <hr>
         </div>
-    </div>
-    
-    <div class="col-12">
-        <hr>
-    </div>
 
 {% endfor %}
 
@@ -64,4 +77,7 @@
 
     </div>
 </div>
+
+{% endif %}
+
 {% endblock %}

@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/Michael0812/blackandwhite.svg?branch=master)](https://travis-ci.org/Michael0812/blackandwhite)
 
+
+<img src="https://i.ibb.co/Fxs06m9/main-image.png" alt="banner" width="100%" height="" border="0">
+
+
 ## Navigation
 
 1. [UX](#ux)

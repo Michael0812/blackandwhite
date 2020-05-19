@@ -2,14 +2,13 @@
 {% load static %}
 
 
-<div class="container-fluid banner-background push-footer-down">
 
 <nav class="navbar navbar-expand-lg navbar-light">
 
     <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
      aria-expanded="false" aria-label="Toggle navigation" style="color: #fff;">
     <i class="fas fa-bars"></i></a>
-    <div class="collapse navbar-collapse pt-lg-5 mt-lg-5 ml-lg-5 pl-lg-5" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         
 
@@ -57,7 +56,7 @@
     </div>
 
     <!--Search-->
-   <div class="navbar-nav ml-auto pt-lg-5 mt-lg-5">
+   <div class="navbar-nav ml-auto">
             <li class="nav-item">
                 <form action="{% url 'search' %}" method="get">
                 <input class="form-search" type="search" name="q" placeholder="Search" aria-label="Search"> 
@@ -67,7 +66,7 @@
         </div>
 
     <!--Shopping-->
-        <div id="navbar-icons-desktop" class="icon-shopping pt-lg-5 mt-lg-5">
+        <div id="navbar-icons-desktop" class="icon-shopping">
            <a href="{% url 'view_cart' %}">
                 <i class="fas fa-shopping-cart">
                 {% if product_count > 0 %}
@@ -78,10 +77,3 @@
         </div>
 
 </nav>
-    <!--Logo-->
-    <div class="row pt-5 mt-5">
-            <div class="col">
-                <a href="{% url 'home' %}"><img src=" {% static 'img/logo.png' %}" alt="logo-navbar" class="logo-navbar rounded mx-auto d-block"></a>
-            </div>
-    </div>
-</div>

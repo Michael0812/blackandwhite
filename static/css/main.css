@@ -83,9 +83,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 }
-.products-title{
-    font-family: 'Poly', serif;
-}
+
 .panel-body{
    height: 100%;
 }
@@ -96,7 +94,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 68vh;
+    min-height: 70vh;
     width: 100%;
     background-position: center 5%;
 }
@@ -278,12 +276,18 @@ th, td {
 }
 
 
+@media only screen and (min-width: 1200px) {
+    .products-info{
+    margin-top: 10rem;
+}
+}
+
 @media only screen and (min-width: 1024px) {
 .mission-title{
         margin-top: 7rem;
     }
 .products-info{
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-right: 15rem;
 }
 .contact-text{
@@ -292,6 +296,7 @@ th, td {
     }
 .products-title{
     font-size: 2.3rem;
+    font-family: 'Poly', serif;
 }
 .products-text,
 .view-more{

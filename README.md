@@ -3,10 +3,6 @@
 
 <img src="https://i.ibb.co/Fxs06m9/main-image.png" alt="banner" width="100%" height="" border="0">
 
-Oh, coffee — it’s part of your daily morning routine, your life force, and at times, your only motivation. There’s no denying your true, unconditional 
-love for coffee when your barista knows your usual order, but not your name. Whether you enjoy a latte, a cappuccino, or simply black coffee, these funny 
-coffee quotes and sayings will have you nodding your head and tempting you to reach for another cup. You’ll be perked up and inspired in no time. 
-[Black & White](https://black-a-white.herokuapp.com/)
 
 ## Navigation
 
@@ -134,10 +130,8 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/).
 - [Return Policy](https://i.ibb.co/L9y406j/return-policy.png)
 - [Delivery Information](https://i.ibb.co/fp45S54/delivery.png)
 - [Contact](https://i.ibb.co/44tnGNf/contact.png)
-- [Products](https://i.ibb.co/9wxnFh2/coffee.png)
+- [Coffee](https://i.ibb.co/9wxnFh2/coffee.png)
+- [Mission & Vision](https://i.ibb.co/qp6fhJt/mission-vision.png)
 - [Shop](https://i.ibb.co/mvwgxrc/shops.png)
 - [Sign Up](https://i.ibb.co/PW4y0BC/Sign-up.png)
 - [Login](https://i.ibb.co/NLK2FNt/Login.png)
-- [About](https://i.ibb.co/w6MTPMw/about.png)
-- [Cart](https://i.ibb.co/WPYMDSr/cart.png)
-- [Checkout](https://i.ibb.co/8c7gRVH/cart.png)

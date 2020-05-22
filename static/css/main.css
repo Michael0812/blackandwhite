@@ -21,6 +21,7 @@ body{
 /* Banner */
 .logo-navbar{
     width: 600px;
+    margin-top: 10rem;
 }
 
 .banner-background {
@@ -282,6 +283,7 @@ th, td {
 }
 
 @media only screen and (min-width: 1024px) {
+
 .mission-title{
         margin-top: 7rem;
     }
@@ -313,7 +315,7 @@ th, td {
 }
 }
 
-@media only screen and (min-width: 786px) {
+@media only screen and (min-width: 767px) {
 .products-text{
         width: 600px;
     }
@@ -350,8 +352,11 @@ th, td {
 
 @media only screen and (max-width: 968px) {
 .logo-navbar{
-    width: 260px;
-    margin-top: 5rem;
+    width: 300px;
+    margin-top: 2rem;
+}
+.banner-background{
+    min-height: 70vh;
 }
 }
 

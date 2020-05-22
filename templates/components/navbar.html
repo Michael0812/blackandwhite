@@ -13,6 +13,8 @@
         
 
         
+
+        
         <!--Products-->
             <li class="nav-link active">
                 <a class="text-white text-uppercase" href="{% url 'products' %}">products<span
@@ -41,22 +43,21 @@
             </li>
         {% else %}
         <!--Login-->
-        <a href="#">
+        
             <li class="nav-link">
                 <a class="text-white text-uppercase" href="{% url 'login' %}">login<span
                 class="sr-only"></span></a>
             </li>
-            </a>
+
             <li class="nav-link">
                 <a class="text-white text-uppercase" href="{% url 'registration' %}">register<span
                 class="sr-only"></span></a>
             </li>
         {% endif %}
     </ul>
-    </div>
 
     <!--Search-->
-   <div class="navbar-nav ml-auto">
+       <div class="navbar-nav ml-auto">
             <li class="nav-item">
                 <form action="{% url 'search' %}" method="get">
                 <input class="form-search" type="search" name="q" placeholder="Search" aria-label="Search"> 
@@ -64,9 +65,10 @@
             </form>
             </li>
         </div>
+    </div>
 
     <!--Shopping-->
-        <div id="navbar-icons-desktop" class="icon-shopping">
+        <div id="navbar-icons-desktop" class="icon-shopping d-inline-block">
            <a href="{% url 'view_cart' %}">
                 <i class="fas fa-shopping-cart">
                 {% if product_count > 0 %}

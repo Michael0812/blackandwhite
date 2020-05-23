@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans|Poly&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poly|&display=swap');
 
 
 html {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth; 
 }
 
 body{
@@ -16,7 +15,6 @@ body{
     overflow-x: hidden;
     color: #333333;
 }
-
 
 /* Banner */
 .logo-navbar{
@@ -73,8 +71,8 @@ body{
     color: #FFFFFF;
 }
 
-/* Products */
 
+/* Products */
 .product-image{
     width: 100%;
     height: 50vh;
@@ -88,6 +86,7 @@ body{
 .panel-body{
    height: 100%;
 }
+
 
 /* Video */
 .video-background{
@@ -146,6 +145,7 @@ video{
 .contact-us{
     color: #FFFFFF;
 }
+
 
 /* Footer */
 .logo-footer{
@@ -219,6 +219,7 @@ a{
     color: #FFFFFF;
 }
 
+
 /* Shops */
 div#map {
     min-height: 360px;
@@ -234,12 +235,13 @@ th, td {
   padding: 4px;
 }
 
-/* Login & Register */
 
+/* Login & Register */
 .alert{
     background-color: #333333;
     color: #FFFFFF;
 }
+
 
 /* Login */
 .login,
@@ -254,11 +256,11 @@ th, td {
     border-radius: 10px;
 }
 
+
 /* Profile */
 .profile-welcome{
     color: #A88D70;
 }
-
 
 .cart-image{
     width: 100px;
@@ -276,14 +278,61 @@ th, td {
 }
 
 
+/*Banner images*/
+.shops-banner,
+.products-banner,
+.about-banner,
+.login-banner,
+.register-banner,
+.cart-banner,
+.checkout-banner,
+.terms-banner,
+.delivery-banner{
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.shops-banner{
+    background-image: url("https://images.unsplash.com/photo-1509785307050-d4066910ec1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2456&q=80");
+}
+.products-banner{
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+}
+.about-banner{
+    background-image: url("https://images.unsplash.com/photo-1557944617-baa9bfe964c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
+}
+.login-banner{
+    background-image: url("https://images.unsplash.com/photo-1493925410384-84f842e616fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80")
+}
+.register-banner{
+    background-image: url("https://images.unsplash.com/photo-1493925410384-84f842e616fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80")
+}
+.cart-banner{
+    background-image: url("https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80")
+}
+.checkout-banner{
+    background-image: url("https://images.unsplash.com/photo-1507914372368-b2b085b925a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80")
+}
+.terms-banner{
+    background-image: url("https://images.unsplash.com/photo-1555763349-9aff11347d68?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80")
+}
+.delivery-banner{
+    background-image: url("https://images.unsplash.com/photo-1518831449057-63cc79a76488?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+}
+
+
+/*Media Queries*/
 @media only screen and (min-width: 1200px) {
-    .products-info{
+.products-info{
     margin-top: 10rem;
 }
 }
 
 @media only screen and (min-width: 1024px) {
-
 .mission-title{
         margin-top: 7rem;
     }
@@ -292,8 +341,8 @@ th, td {
     margin-right: 15rem;
 }
 .contact-text{
-        font-size: 2.1rem;
-        margin-left: 12%;
+    font-size: 2.1rem;
+    margin-left: 12%;
     }
 .products-title{
     font-size: 2.3rem;
@@ -302,27 +351,26 @@ th, td {
 .products-text,
 .view-more{
     font-size: 1.5rem;
-    }
+}
 .view-more{
     width: 15rem;
 }
 .introductionn{
-        margin-left: 0%;
-        margin-right: 30%;
+    margin-left: 0%;
+    margin-right: 30%;
 }
 .video-title{
     margin-top: 5rem;
 }
-
 }
 
 @media only screen and (min-width: 767px) {
 .products-text{
-        width: 600px;
-    }
+    width: 600px;
+}
 .introductionn{
-        margin-left: 22%;
-        margin-right: 22%;
+    margin-left: 22%;
+    margin-right: 22%;
 }
 .text-footer{
     width: 40%;
@@ -375,51 +423,4 @@ th, td {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-/*Banner images*/
-
-.shops-banner,
-.products-banner,
-.about-banner,
-.login-banner,
-.register-banner,
-.cart-banner,
-.checkout-banner,
-.terms-banner,
-.delivery-banner{
-    background-attachment: fixed;
-    width: 100%;
-    height: 70vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}
-
-.shops-banner{
-    background-image: url("https://images.unsplash.com/photo-1509785307050-d4066910ec1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2456&q=80");
-}
-.products-banner{
-    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-}
-.about-banner{
-    background-image: url("https://images.unsplash.com/photo-1557944617-baa9bfe964c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-}
-.login-banner{
-    background-image: url("https://images.unsplash.com/photo-1493925410384-84f842e616fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80")
-}
-.register-banner{
-    background-image: url("https://images.unsplash.com/photo-1493925410384-84f842e616fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80")
-}
-.cart-banner{
-    background-image: url("https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80")
-}
-.checkout-banner{
-    background-image: url("https://images.unsplash.com/photo-1507914372368-b2b085b925a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80")
-}
-.terms-banner{
-    background-image: url("https://images.unsplash.com/photo-1555763349-9aff11347d68?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80")
-}
-.delivery-banner{
-    background-image: url("https://images.unsplash.com/photo-1518831449057-63cc79a76488?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
 }

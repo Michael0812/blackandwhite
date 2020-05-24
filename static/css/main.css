@@ -274,6 +274,14 @@ th, td {
 }
 
 
+.introduction-text,
+.products-tiitle,
+.video-title,
+.mission-title,
+.promises-title {
+       font-family: 'Poly';
+}
+
 /*Banner images*/
 .shops-banner,
 .products-banner,
@@ -419,10 +427,4 @@ th, td {
     flex: 100%;
     max-width: 100%;
   }
-}
-
-.introduction-text,
-.products-tiitle,
-.video-title {
-       font-family: 'Poly';
 }

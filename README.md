@@ -281,3 +281,11 @@ There is google map located on this page. User can see three shops located in Do
 |Year| 2020
 
 - On clicking the **Submit Payment** button and on successful completion of payment.
+
+## Features for Future Releases
+- Sending an email to customer when their new order has been placed.
+- Auto login on registering a new account.
+- Coupons and discount codes.
+- Password Reset.
+- Additional payment methods.
+- Live Chat.

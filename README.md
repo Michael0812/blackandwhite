@@ -535,3 +535,21 @@ Follow these steps to get an API key:
          ```
 Please, follow this [link](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) if you need any further information.
 
+
+# Credits
+
+## Content
+- Terms and conditions template provided by [Shopify](https://en.shopify.nl/tools/policy-generator/terms-and-conditions)
+- Example privacy policy provided by [Cleverbox](https://www.cleverbox.co.uk/example-privacy-policy/)
+- All other text was copied and used from [Rave Coffee](https://ravecoffee.co.uk/), [Coffee Bean Shop](https://www.coffeebeanshop.co.uk/), [Taylors of Harrogate](https://www.taylorsofharrogate.co.uk/)
+
+### Images
+- Logo was made by [Polka. Grahpic Design](https://www.facebook.com/polka.graphicdesign)
+- All product photography was taken from [Taylors of Harrogate](https://www.taylorsofharrogate.co.uk/) and changed it by [Polka. Grahpic Design](https://www.facebook.com/polka.graphicdesign)
+- Images in about section was copied from [Unsplash](https://unsplash.com/s/photos/coffee)
+
+ ##### Also, I was working with different websites that gave me some helps, advices and ideas for this project:
+- [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Learn)
+- [w3schools](https://www.w3schools.com)
+- [Google developers](https://developers.google.com/)
+- [awwwards](https://www.awwwards.com)

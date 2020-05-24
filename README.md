@@ -333,3 +333,40 @@ Card number | credit_card_number | required=False | CharField
 CVV | cvv | required=False | CharField
 Expiry Month | expiry_month | required=False | choices=MONTH_CHOICES
 Expiry Year | expiry_year | required=False | choices=Year_CHOICES
+
+
+# Technologies Used
+
+### Tools
+- [Gitpod](https://gitpod.io/)
+- [Django](https://www.djangoproject.com/)
+- [Stripe](https://stripe.com)
+- [Travis](https://travis-ci.org/)
+- [AWS S3 Bucket](https://aws.amazon.com/)
+- [Django Heroku](https://pypi.org/project/django-heroku/) 
+- [Gunicorn](https://pypi.org/project/gunicorn/) 
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+- [Psycopg2](https://pypi.org/project/psycopg2/)
+- [Whitenoise](http://whitenoise.evans.io/en/stable/)
+- [Imgbb](https://imgbb.com)
+- [PIP](https://pip.pypa.io/en/stable/installing/) 
+- [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+- [GitHub](https://github.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [AdobeXD](https://www.adobe.com/)
+
+### Databases
+- [PostgreSQL](https://www.postgresql.org/)
+- [SQlite3](https://www.sqlite.org/index.html)
+
+### Libraries
+- [JQuery](https://jquery.com)
+- [Bootstrap](https://www.bootstrapcdn.com/)
+- [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Google Fonts](https://fonts.google.com/)
+
+### Languages
+- HTML
+- CSS
+- JavaScript
+- [Python](https://www.python.org/)

@@ -3,11 +3,12 @@
 
 <img src="https://i.ibb.co/Fxs06m9/main-image.png" alt="banner" width="100%" height="" border="0">
 
-Oh, coffee — it’s part of your daily morning routine, your life force, and at times, your only motivation. There’s no denying your true, 
-unconditional love for coffee when your barista knows your usual order, but not your name. Whether you enjoy a latte, a cappuccino, 
-or simply black coffee, these funny coffee quotes and sayings will have you nodding your head and tempting you to reach for another cup. 
-You’ll be perked up and inspired in no time. [Black & White](https://black-a-white.herokuapp.com/)
-
+Oh, coffee — it’s part of your daily morning routine, your life force, and at times, your only motivation. 
+There’s no denying your true, unconditional love for coffee when your barista knows your usual order, but not your name.
+ Whether you enjoy a latte, a cappuccino, or simply black coffee, these funny coffee quotes and sayings will have you 
+ nodding your head and tempting you to reach for another cup. You’ll be perked up and inspired in no time. 
+ [Black & White](https://black-a-white.herokuapp.com/)
+ 
 ## Navigation
 
 1. [UX](#ux)
@@ -18,10 +19,46 @@ You’ll be perked up and inspired in no time. [Black & White](https://black-a-w
     - [User Stories](#user-stories)
     - [Design Choices](#design-choices)
     - [Wireframes](#wireframes)
+2. [Features](#features)
+    - [Existing Features](#existing-features)
+        - [Home Page](#home-page)
+        - [About](#about)
+        - [Shops](#shops)
+        - [Register](#register)
+        - [Login](#login)
+        - [Products](#products)
+        - [Cart](#cart)
+        - [Checkout](#checkout)
+     - [Features for Future Releases](#features-for-future-releases)
+     
+3. [Information Architecture](#information-architecture)
+    - [Database choice](#database-choice)
+    - [Data Models](#data-models)
+        - [Products Model](#products-model)
+        - [Order Model](#order-model)
+        - [Payments Model](#payments-model)
+        
+4. [Technologies Used](#technologies-used)
+    - [Tools](#tools)
+    - [Databases](#databases)
+    - [Libraries](#libraries)
+    - [Languages](#languages)
+    
+5. [Testing](#testing)
+    - See separate [TESTING.md](TESTING.md) file.
+    
+6. [Deployment](#deployment)
+    - [How to run this project locally](#how-to-run-this-project-locally)
+    - [Heroku Deployment](#heroku-deployment)
+    - [Google Map](#how-to-get-an-Google-Maps-API-key)
+  
+7. [Credits](#credits)
+    - [Content](#content)
+    - [Images](#images)
+    - [Acknowledgements](#acknowledgements)
 
 
 ## UX
-
 ### Goals
 ### Visitor Goals
 The central target audience for **Black & White** are:
@@ -134,11 +171,14 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/).
 - [Return Policy](https://i.ibb.co/L9y406j/return-policy.png)
 - [Delivery Information](https://i.ibb.co/fp45S54/delivery.png)
 - [Contact](https://i.ibb.co/44tnGNf/contact.png)
-- [Coffee](https://i.ibb.co/9wxnFh2/coffee.png)
-- [Mission & Vision](https://i.ibb.co/qp6fhJt/mission-vision.png)
+- [Products](https://i.ibb.co/9wxnFh2/coffee.png)
 - [Shop](https://i.ibb.co/mvwgxrc/shops.png)
 - [Sign Up](https://i.ibb.co/PW4y0BC/Sign-up.png)
 - [Login](https://i.ibb.co/NLK2FNt/Login.png)
+- [About](https://i.ibb.co/w6MTPMw/about.png)
+- [Cart](https://i.ibb.co/WPYMDSr/cart.png)
+- [Checkout](https://i.ibb.co/8c7gRVH/cart.png)
+
 
 
 
@@ -290,6 +330,7 @@ There is google map located on this page. User can see three shops located in Do
 - Additional payment methods.
 - Live Chat.
 
+
 # Information Architecture
 
 ### Database Choice
@@ -374,6 +415,7 @@ Expiry Year | expiry_year | required=False | choices=Year_CHOICES
 # Testing 
 
 Testing information can be found in separate [TESTING.md](TESTING.md) file
+
 
 
 # Deployment
@@ -565,3 +607,5 @@ Please, follow this [link](https://developers.google.com/maps/documentation/java
 
 
 [Back to the top](#navigation)
+
+

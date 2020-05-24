@@ -1,6 +1,6 @@
 {% load static %}
 
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light pt-4">
 
     <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
      aria-expanded="false" aria-label="Toggle navigation" style="color: #fff;">
@@ -10,39 +10,39 @@
         
 
         <!--Products-->
-            <li class="nav-link active">
+            <li class="nav-link active mr-3">
                 <a class="text-white text-uppercase" href="{% url 'products' %}">products<span
                 class="sr-only">(current)</span></a>
             </li>
         <!--Shops-->
-            <li class="nav-link">
+            <li class="nav-link mr-3">
                 <a class=" text-white text-uppercase" href="{% url 'shops' %}">shops<span class="sr-only">(current)</span></a>
             </li>
         <!--About us-->
-            <li class="nav-link">
+            <li class="nav-link mr-3">
                 <a class="text-white text-uppercase" href="{% url 'about' %}">about<span
                 class="sr-only">(current)</span></a>
             </li>
 
         {% if user.is_authenticated %}
         <!--Logout-->
-            <li class="nav-link">
+            <li class="nav-link mr-3">
                 <a class="text-white text-uppercase" href="{% url 'logout' %}">LOGOUT<span
                 class="sr-only"></span></a>
             </li>
         <!--Profile-->
-            <li class="nav-link">
+            <li class="nav-link mr-3">
                 <a class="text-white text-uppercase" href="{% url 'profile' %}">profile<span
                 class="sr-only"></span></a>
             </li>
         {% else %}
         <!--Login-->
-            <li class="nav-link">
+            <li class="nav-link mr-3">
                 <a class="text-white text-uppercase" href="{% url 'login' %}">login<span
                 class="sr-only"></span></a>
             </li>
 
-            <li class="nav-link">
+            <li class="nav-link mr-3">
                 <a class="text-white text-uppercase" href="{% url 'registration' %}">register<span
                 class="sr-only"></span></a>
             </li>

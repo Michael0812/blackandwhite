@@ -370,3 +370,8 @@ Expiry Year | expiry_year | required=False | choices=Year_CHOICES
 - CSS
 - JavaScript
 - [Python](https://www.python.org/)
+
+# Testing 
+
+Testing information can be found in separate [TESTING.md](TESTING.md) file
+

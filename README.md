@@ -289,3 +289,47 @@ There is google map located on this page. User can see three shops located in Do
 - Password Reset.
 - Additional payment methods.
 - Live Chat.
+
+# Information Architecture
+
+### Database Choice
+
+- As a framework Django works with SQL databases. During development on my local machine I worked with the standard **sqlite3** database installed with Django.
+- On deployment, the SQL database provided by Heroku is a **PostgreSQL** database. 
+
+#### Products Model
+| Name | Key in db | Validation | Field Type |
+--- | --- | --- | ---
+Name | name | max_length=254 | CharField
+Description | description |  | TextField
+Price | price | max_digits=6, decimal_places=2 | DecimalField
+Image 1 | product_image1 |  | ImageField
+Image 2 | product_image2 | blank=True, null=True | ImageField
+Image 3 | product_image3 | blank=True, null=True | ImageField
+Image 4 | product_image4 | blank=True, null=True | ImageField
+Image 5 | product_image5 | blank=True, null=True | ImageField
+Image 6 | product_image6 | blank=True, null=True | ImageField
+Image 7 | product_image7 | blank=True, null=True | ImageField
+Image 8 | product_image8 | blank=True, null=True | ImageField
+Image 9 | product_image9 | blank=True, null=True | ImageField
+
+#### Order model
+
+| Name | Key in db | Validation | Field Type |
+--- | --- | --- | ---
+Full Name | full_name | max_length=150 | CharField
+Phone Number | phone_number | max_length=20, blank=False | CharField
+Country | country | max_length=40, blank=False | CharField
+Postcode | postcode | max_length=20 | CharField
+Town / City | town_or_city | max_length=150 | CharField
+Address line 1 | address_line_1 | max_length=150 | CharField
+Address line 2 | address_line_2 | max_length=150, blank=True | CharField
+County | county | max_length=150, blank=True | CharField
+
+#### Payments Model
+| Name | Key in db | Validation | Field Type |
+--- | --- | --- | ---
+Card number | credit_card_number | required=False | CharField
+CVV | cvv | required=False | CharField
+Expiry Month | expiry_month | required=False | choices=MONTH_CHOICES
+Expiry Year | expiry_year | required=False | choices=Year_CHOICES

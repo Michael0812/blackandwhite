@@ -553,3 +553,15 @@ Please, follow this [link](https://developers.google.com/maps/documentation/java
 - [w3schools](https://www.w3schools.com)
 - [Google developers](https://developers.google.com/)
 - [awwwards](https://www.awwwards.com)
+
+
+## Acknowledgements
+- I would like to thank my [partner](https://www.linkedin.com/in/lidia-kabala-3b2036137/) immensely who was supporting and helping me throughout the whole journey. 
+- Massive thanks to my mentor [Simen Daehlin](https://www.github.com/Eventyret), he gave me so many very useful tips and advices, and he is was always open, helpful and kind to me.
+- Also, I would like to thank students and tutors from Code Institute that were helping me with every issue I had, they were always trying to give me their best advice and help me sort things out.
+
+
+ ### The content of this Website is for educational purposes only.
+
+
+[Back to the top](#navigation)

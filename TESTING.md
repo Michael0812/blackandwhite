@@ -37,3 +37,39 @@ instead of
 - Also, many other small issues was solving during this project. I was doing many research, talking with people in Slack community, my mentor, tutors.
 
 
+### Python Testing
+
+#### How to run Python tests
+
+To run the existing Python tests:
+1. Activate your virtual environment.
+2. In the terminal enter the following command:
+```
+python manage.py test
+```
+3. If you wish to run the tests within a specific app only you can specify with: 
+```
+python manage.py test <app name here>
+```
+4. The test results will be shown within the terminal.
+
+
+### Coverage
+
+[Coverage.py](https://coverage.readthedocs.io/en/v4.5.x/) was used to provide feedback during testing to check that enough of my code had been tested.
+
+#### How to run coverage
+
+1. Activate your virtual environment.
+2. In the terminal enter the following command:
+```
+coverage html
+```
+3. Open the newly created `htmlcov` directory in the root of your project folder. 
+4. Open the `index.html` file inside it.
+5. Run the file in the browser to see the output.
+
+### Travis
+
+- [Travis](https://travis-ci.org/) was used throughout the unit testing of this project to provide continuous integration with the deployed site. The [Travis Documentation](https://docs.travis-ci.com/) provides all the info needed to set it up.
+- I set the heroku deployment settings for this project to only allow deployment when the travis had passed the latest push to the master branch on GitHub.

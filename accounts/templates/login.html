@@ -35,7 +35,7 @@
                 <h2>Login</h2>      
                 <form method="POST" class="mt-5 text-center rounded mx-auto">
                 {% csrf_token %} {{ login_form | as_bootstrap}}
-                <button class="text-dark submit mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign in</button>
+                <button class="btn btn-secondary mt-2 pb-1 mt-3 rounded mx-auto d-block mb-3" type="submit">Sign in</button>
                  <p class="text-muted mb-3 border-bottom">Need an account? <a href="{% url 'registration' %}"  class="text-dark">Register here.</a></p>
                 </form>
             </div>

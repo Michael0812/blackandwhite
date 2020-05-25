@@ -1,8 +1,8 @@
 $(document).ready(function() {
   /**
-     * This is the function that gets called by google maps to 
-     * initilize google maps. This takes default the options and then creates the map
-     */
+   * This is the function that gets called by google maps to 
+   * initilize google maps. This takes default the options and then creates the map
+   */
   function initMap() {
     // Map options
     const options = {
@@ -12,16 +12,15 @@ $(document).ready(function() {
         lng: -1.904755
       }
     };
-    const map = new google.maps.Map(document.getElementById('map'), options);
+    const map = new google.maps.Map(document.getElementById('map'),
+    options);
     //Data for the markers consisting of the a LatLng and a content
-    const markers = [
-      {
+    const markers = [{
         coords: {
           lat: 50.720806,
           lng: -1.904755
         },
-        content:
-          '<h5 class="mb-1">Welcome to our shop in Bournemouth</h6>' +
+        content: '<h5 class="mb-1">Welcome to our shop in Bournemouth</h6>' +
           '<table>' +
           '<tr><td>67 Old Christchurch Road,</td></tr>' +
           '<tr><td>Bournemouth</td></tr>' +
@@ -44,8 +43,7 @@ $(document).ready(function() {
           lat: 50.71667,
           lng: -2
         },
-        content:
-          '<h5 class="mb-1">Welcome to our shop in Poole</h6>' +
+        content: '<h5 class="mb-1">Welcome to our shop in Poole</h6>' +
           '<table>' +
           '<tr><td>Lifeboat Quay,</td></tr>' +
           '<tr><td>Poole</td></tr>' +
@@ -61,15 +59,14 @@ $(document).ready(function() {
           '<tr><th>Friday</th><td>9am - 5pm</td></tr>' +
           '<tr><th>Saturday</th><td>9am - 5pm</td></tr>' +
           '<tr><th>Sunday</th><td>Closed</td></tr>' +
-          '</table>'      
-        },
+          '</table>'
+      },
       {
         coords: {
           lat: 50.736782,
           lng: -1.777897
         },
-        content:
-          '<h5 class="mb-1">Welcome to our shop in Christchurch</h6>' +
+        content: '<h5 class="mb-1">Welcome to our shop in Christchurch</h6>' +
           '<table>' +
           '<tr><td>23 Quay Road,</td></tr>' +
           '<tr><td>Christchurch</td></tr>' +
@@ -92,7 +89,10 @@ $(document).ready(function() {
     for (let i = 0; i < markers.length; i++) {
       addMarker(markers[i]);
     }
-    // Adds marker function
+    // This is the function that create markers on the map
+    // User is allowed to click on it
+    // Pop-ups window coming with content
+
     function addMarker(props) {
       let marker = new google.maps.Marker({
         position: props.coords,
@@ -114,4 +114,5 @@ $(document).ready(function() {
     }
   }
   initMap();
+
 });

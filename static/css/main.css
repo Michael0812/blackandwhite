@@ -20,6 +20,12 @@ body{
     width: 600px;
     margin-top: 10rem;
 }
+.logo-nav{
+    width: 80px;
+    height: 46px;
+    margin-right: 1rem;
+    margin-top: -0.5rem;
+}
 
 .banner-background {
     background-image: url("https://i.ibb.co/LPgDQmn/banner-image.png");

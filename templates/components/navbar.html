@@ -7,8 +7,12 @@
     <i class="fas fa-bars"></i></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-        
 
+
+        <!--Logo-->
+            <li>
+                <a href="{% url 'home' %}"><img src="{% static 'img/logo.png'%}" alt="logo" class="logo-nav mr-3 img-responsive"></a>
+            </li>
         <!--Products-->
             <li class="nav-link active mr-3">
                 <a class="text-white text-uppercase" href="{% url 'products' %}">products<span

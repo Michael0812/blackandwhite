@@ -98,7 +98,7 @@ The Goals of **Black & White** business are:
 
 
 ### User Stories
-As a visitor to **Black & White** website I expect/want/need:
+As a user of **Black & White** website I expect/want/need:
 
 - To be able to access website from any devices
 - For the content to look good and be useable on all of devices
@@ -119,47 +119,47 @@ As a visitor to **Black & White** website I expect/want/need:
 
 ## Design Choices
 
-White & Black Coffee branding has an overall elegant but simple design. The home page design is very stylish and modern, this should help the site to appeal to the right type of customers to grow the business. The following design choices were made with this in mind: 
+**White & Black Coffee** branding has an overall **elegant** but simple design. The home page design is very **stylish** and **modern**, this should help the site to appeal to the right type of customers to grow the business. The following design choices were made with this in mind: 
 
 ### Fonts
 
 <div  align="center">
-<img  src="https://i.ibb.co/mDpXWMw/fonts.png"  alt="Fonts used on Black & White website"  aria-label="Fonts used on Black & White website"  />
+<img src="https://i.ibb.co/mDpXWMw/fonts.png"  alt="Fonts used on Black & White website"  aria-label="Fonts used on Black & White website"  />
 </div>
 
 ### Header Font
-EB Garamond was chosen as for the main headings for its elegance look. That typeface is a key moment in the history of typography, and European type designers have been reacting to this work ever since. It is probably the most revived typeface in the world and many are excellent. In the world of free/libre culture, however, only a few Garamond-inspired types exist, and none share the scope of this project.
+[Poly](https://fonts.google.com/specimen/Poly) was chosen as for the main headings for its **elegance** look. That typeface is a key moment in the history of typography, and European type designers have been reacting to this work ever since. It is probably the most revived typeface in the world and many are **excellent**. In the world of free/libre culture, however, only a few Poly-inspired types exist, and none share the scope of this project.
 
 ### Body Font
-Open Sans is one of the most popular body fonts for websites. People love Open Sans for its simplicity and readability. Open Sans is designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms.
+[Open Sans](https://fonts.google.com/specimen/Open+Sans) is one of the most popular body fonts for websites. People love Open Sans for its **simplicity** and **readability**. Open Sans is designed with an upright stress, open forms and a neutral, yet **friendly** appearance. It was optimized for print, web, and **mobile interfaces**, and has **excellent** legibility characteristics in its letterforms.
 From a design perspective there are only two fonts used throughout the whole website to make sure website does not look unstructured and unprofessional. Keeping in mind that too many type sizes and styles at once can also wreck any layout. The kerning and leading was also adjusted to make sure readability for all users is easy. These two fonts complement each other and work really well together. 
 
 ### Colours
-<div  align="center">
-<img  src="https://i.ibb.co/b1MDQcH/colors.png"  alt="Colours used on Black & White website"  aria-label="Colours used on Black & White website"  />
+<div align="center">
+<img src="https://i.ibb.co/b1MDQcH/colors.png"  alt="Colours used on Black & White website"  aria-label="Colours used on Black & White website"  />
 </div>
 
-The brand colours in this design were chosen really carefully as the name of the website is Black&White coffee, this would make the user obviously think about black and & white. These colours are used through out the design but as secondary colours. The aims was to kind of surprise the user with the colours of coffee.
+The brand colours in this design were chosen really carefully as the name of the website is **Black & White** coffee, this would make the user obviously think about **Black & White**. These colours are used through out the design but as secondary colours. The aims was to kind of surprise the user with the colours of coffee.
 
-For the primary colours we used browns and creams – this is what you get from mixing black and white together – coffee + milk. These colours compliment the theme of the website, make people think and crave coffee. 
+For the primary colours we used **browns** and **creams** – this is what you get from mixing **black** and **white** together – coffee + milk. These colours compliment the theme of the website, make people think and crave coffee. 
 
 ### Icons
-<div  align="center">
-<img  src="https://i.ibb.co/KKs79HB/icons.png"  alt="Icons used on Black & White website"  aria-label="Icons used on Black & White website"  />
+<div align="center">
+<img src="https://i.ibb.co/KKs79HB/icons.png"  alt="Icons used on Black & White website"  aria-label="Icons used on Black & White website"  />
 </div>
 
 There are few icons and text breakers used throughout the website.
 
 As this is an ecommerce website where people will buy their favourite coffees, user will expect to see search and cart icons in the navigation banner. 
 
-There are also social media icons in the footer to navigate the customers to have a look at Black&White coffees facebook, Instagram etc.
+There are also social media icons in the footer to navigate the customers to have a look at **Black & White** coffees **Facebook**, **Instagram** etc.
 
-To make the website design more outspoken and elegant there are few hand drawn illustrated icons used. These are coffee trees, beans and leaves, mainly used to support the content about services we provide and CTAs.
+To make the website design more outspoken and **elegant** there are few hand drawn illustrated icons used. These are coffee **trees**, **beans** and **leaves**, mainly used to support the content about services we provide and CTAs.
 
 Text breakers (text ornaments) are used to break up the content, usually used to underline the heading text. Makes the content look more elegant and easier to use. 
 
-<div  align="center">
-<img  src="https://i.ibb.co/BLw2X8V/break.png"  alt="breaker used on Black & White website"  aria-label="breaker used on Black & White website"  />
+<div align="center">
+<img src="https://i.ibb.co/BLw2X8V/break.png"  alt="breaker used on Black & White website"  aria-label="breaker used on Black & White website"  />
 </div>
 
 
@@ -317,7 +317,7 @@ There is google map located on this page. User can see three shops located in Do
 | Card number | 4242424242424242 |
 |--|--|
 | Security Code | 111 |
-|Month | 6
+|Month | pick futher month
 |Year| 2020
 
 - On clicking the **Submit Payment** button and on successful completion of payment.
@@ -435,7 +435,7 @@ To allow you to access all functionality on the site locally, ensure you have cr
 Please click the links above for documentation on how to set these up and retrieve the necessary environment variables.
 
 ### Instructions
-1. Save a copy of the github repository located at https://github.com/Michael0812/blackandwhite by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
+1. Save a copy of the github repository located [here](https://github.com/Michael0812/blackandwhite) by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
     ```
     git clone https://github.com/Michael0812/blackandwhite
     ```
@@ -466,10 +466,12 @@ _Again this **command may differ depending on your operating system**, please ch
 
 7. Set up the following environment variables within your IDE. 
 
-    - If using VSCode, locate the `settings.json` file within the .vscode directory and add your environment variables as below. Do not forget to restart your machine to activate your environment variables or your code will not be able to see them: 
+    - If using GitPod, locate the `settings.json` file within the .vscode directory and add your environment variables as below. Do not forget to restart your machine to activate your environment variables or your code will not be able to see them: 
 
     ```json
     "terminal.integrated.env.windows": {
+_NOTE: This can be change depend of what system you are using_
+
         "HOSTNAME": "<enter hostname here>",
         "SECRET_KEY": "<enter key here>",
         "STRIPE_PUBLISHABLE": "<enter key here>",
@@ -511,7 +513,7 @@ _Again this **command may differ depending on your operating system**, please ch
 
 ## Heroku Deployment
 
-To deploy The House of Mouse webshop to heroku, take the following steps:
+To deploy The **Black & White** webshop to heroku, take the following steps:
 
 1. Create a `requirements.txt` file using the terminal command `pip freeze > requirements.txt`.
 
@@ -536,6 +538,7 @@ AWS_SECRET_ACCESS_KEY | `<your secret key>`
 AWS_STORAGE_BUCKET_NAME | `<your AWS S3 bucket name>`
 DATABASE_URL | `<your postgres database url>`
 HOSTNAME | `<your heroku app hostname>`
+Debug | True
 SECRET_KEY | `<your secret key>`
 STRIPE_PUBLISHABLE | `<your secret key>`
 STRIPE_SECRET | `<your secret key>`
@@ -580,6 +583,9 @@ Please, follow this [link](https://developers.google.com/maps/documentation/java
 - Example privacy policy provided by [Cleverbox](https://www.cleverbox.co.uk/example-privacy-policy/)
 - All other text was copied and used from [Rave Coffee](https://ravecoffee.co.uk/), [Coffee Bean Shop](https://www.coffeebeanshop.co.uk/), [Taylors of Harrogate](https://www.taylorsofharrogate.co.uk/)
 
+## Code
+I would like to massive thanks [Code institute](https://codeinstitute.net/). I've been following all videos contains in this course and I've been using some code during this project.
+
 ### Images
 - Logo was made by [Polka. Grahpic Design](https://www.facebook.com/polka.graphicdesign)
 - All product photography was taken from [Taylors of Harrogate](https://www.taylorsofharrogate.co.uk/) and changed it by [Polka. Grahpic Design](https://www.facebook.com/polka.graphicdesign)
@@ -593,7 +599,7 @@ Please, follow this [link](https://developers.google.com/maps/documentation/java
 
 
 ## Acknowledgements
-- I would like to thank my [partner](https://www.linkedin.com/in/lidia-kabala-3b2036137/) immensely who was supporting and helping me throughout the whole journey. 
+- I would like to thank my [Partner](https://www.linkedin.com/in/lidia-kabala-3b2036137/) immensely who was supporting and helping me throughout the whole journey. 
 - Massive thanks to my mentor [Simen Daehlin](https://www.github.com/Eventyret), he gave me so many very useful tips and advices, and he is was always open, helpful and kind to me.
 - Also, I would like to thank students and tutors from Code Institute that were helping me with every issue I had, they were always trying to give me their best advice and help me sort things out.
 

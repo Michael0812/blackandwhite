@@ -171,8 +171,8 @@ a{
 /* About */
 *{
     box-sizing: border-box;
-    line-height: 1.8rem;
     text-indent: 10px;
+    line-height: 1.8rem
 }
 
 .row-images {
@@ -291,15 +291,7 @@ th, td {
 }
 
 /*Banner images*/
-.shops-banner,
-.products-banner,
-.about-banner,
-.login-banner,
-.register-banner,
-.cart-banner,
-.checkout-banner,
-.terms-banner,
-.delivery-banner{
+.banner{
     background-attachment: fixed;
     width: 100%;
     height: 70vh;
@@ -333,7 +325,13 @@ th, td {
     background-image: url("https://images.unsplash.com/photo-1555763349-9aff11347d68?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80")
 }
 .delivery-banner{
-    background-image: url("https://images.unsplash.com/photo-1518831449057-63cc79a76488?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+    background-image: url("https://images.unsplash.com/photo-1518831449057-63cc79a76488?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80")
+}
+.profile-banner{
+    background-image: url("https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80")
+}
+.contact-banner{
+    background-image: url("https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
 }
 
 

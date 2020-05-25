@@ -5,7 +5,7 @@
 
 <!--Banner image-->
 
-<div class="container-fluid banner-background push-footer-down">
+<div class="container-fluid banner banner-background push-footer-down">
     {% include 'components/navbar.html' %}
         <!--Logo-->
     <div class="row pt-5 mt-5">
@@ -35,7 +35,7 @@
                 <div class="col-12">
                     <img src="{% static 'img/coffee-tree.svg' %}" alt="coffee-tree" class="rounded mx-auto d-block">
                     <div class="col pt-5 rounded mx-auto d-block">
-                        <h1 class="introduction-text  text-center pb-3 mb-3">Black & White</h1>
+                        <h1 class="introduction-text  text-center pb-3 mb-3"></h1>
                         <p class="introductionn text-center">At Black & White coffee we’ve created a space with a unique style, for long lingering chats over coffee or creative workspace sessions. 
                                                             We believe we have the best coffee in town, just come and try for yourself! We make everything on-site. So come, sit awhile and enjoy 
                                                             your dream coffee or if you can't order it with us. Either way, …we’ve got you.</p>
@@ -73,9 +73,9 @@
     <section class="container-responsive image-products products">
         <div class="row no-gutters text-white text-center float-md-right">
             <div class="col products-info ">
-                <h3 class="products-title mt-5 pt-4">COFFEE PRODUCTS</h3>
+                <h3 class="products-title mt-4 pt-3">COFFEE PRODUCTS</h3>
                 <img src="{% static 'img/break-img.svg' %}" alt="break-image" class="break-image mt-3">
-                <p class="products-text mt-3 pt-3 pb-4">The best way to earn our guests’ trust and loyalty is by showing what we believe in every day. That means we have to know what we stand for and act in a way that support it.</p>
+                <p class="products-text mt-xl-3 pt-xl-2 mb-1">The best way to earn our guests’ trust and loyalty is by showing what we believe in every day. That means we have to know what we stand for and act in a way that support it.</p>
                 <a href="{% url 'products' %}" class="text-white"><p class="rounded mx-auto d-block view-more mt-md-4 mt-3 pt-2"><span class="rounded mx-auto d-block">VIEW MORE</span></p></a>
             </div>
         </div>

@@ -169,8 +169,10 @@ a{
 
 
 /* About */
-* {
-  box-sizing: border-box;
+*{
+    box-sizing: border-box;
+    line-height: 1.8rem;
+    text-indent: 10px;
 }
 
 .row-images {

@@ -41,7 +41,7 @@ There’s no denying your true, unconditional love for coffee when your barista 
 4. [Technologies Used](#technologies-used)
     - [Tools](#tools)
     - [Databases](#databases)
-    - [Libraries](#libraries)
+    - [Libraries and Frameworks](#libraries-and-frameworks)
     - [Languages](#languages)
     
 5. [Testing](#testing)
@@ -378,17 +378,29 @@ Expiry Year | expiry_year | required=False | choices=Year_CHOICES
 
 # Technologies Used
 
+### Languages
+- HTML
+- CSS
+- JavaScript
+- [Python](https://www.python.org/)
+
+### Libraries and Frameworks
+- [JQuery](https://jquery.com)
+- [Bootstrap](https://www.bootstrapcdn.com/)
+- [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Google Fonts](https://fonts.google.com/)
+- [Django](https://www.djangoproject.com/)
+- [Gunicorn](https://pypi.org/project/gunicorn/)
+- [Psycopg2](https://pypi.org/project/psycopg2/)
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+- [Whitenoise](http://whitenoise.evans.io/en/stable/)
+- [Stripe](https://stripe.com)
+
 ### Tools
 - [Gitpod](https://gitpod.io/)
-- [Django](https://www.djangoproject.com/)
-- [Stripe](https://stripe.com)
 - [Travis](https://travis-ci.org/)
 - [AWS S3 Bucket](https://aws.amazon.com/)
 - [Django Heroku](https://pypi.org/project/django-heroku/) 
-- [Gunicorn](https://pypi.org/project/gunicorn/) 
-- [Pillow](https://pillow.readthedocs.io/en/stable/)
-- [Psycopg2](https://pypi.org/project/psycopg2/)
-- [Whitenoise](http://whitenoise.evans.io/en/stable/)
 - [Imgbb](https://imgbb.com)
 - [PIP](https://pip.pypa.io/en/stable/installing/) 
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
@@ -400,17 +412,7 @@ Expiry Year | expiry_year | required=False | choices=Year_CHOICES
 - [PostgreSQL](https://www.postgresql.org/)
 - [SQlite3](https://www.sqlite.org/index.html)
 
-### Libraries
-- [JQuery](https://jquery.com)
-- [Bootstrap](https://www.bootstrapcdn.com/)
-- [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
-- [Google Fonts](https://fonts.google.com/)
 
-### Languages
-- HTML
-- CSS
-- JavaScript
-- [Python](https://www.python.org/)
 
 # Testing 
 

@@ -345,14 +345,7 @@ Name | name | max_length=254 | CharField
 Description | description |  | TextField
 Price | price | max_digits=6, decimal_places=2 | DecimalField
 Image 1 | product_image1 |  | ImageField
-Image 2 | product_image2 | blank=True, null=True | ImageField
-Image 3 | product_image3 | blank=True, null=True | ImageField
-Image 4 | product_image4 | blank=True, null=True | ImageField
-Image 5 | product_image5 | blank=True, null=True | ImageField
-Image 6 | product_image6 | blank=True, null=True | ImageField
-Image 7 | product_image7 | blank=True, null=True | ImageField
-Image 8 | product_image8 | blank=True, null=True | ImageField
-Image 9 | product_image9 | blank=True, null=True | ImageField
+
 
 #### Order model
 

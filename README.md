@@ -123,8 +123,9 @@ As a user of **Black & White** website I expect/want/need:
 
 ### Fonts
 
+
 <div  align="center">
-<img src="https://i.ibb.co/mDpXWMw/fonts.png"  alt="Fonts used on Black & White website"  aria-label="Fonts used on Black & White website"  />
+<img src="https://i.ibb.co/fpZCn1z/font-design.png" alt="font-design" aria-label="Fonts used on Black & White website"  />
 </div>
 
 ### Header Font
@@ -172,7 +173,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/).
 - [Delivery Information](https://i.ibb.co/fp45S54/delivery.png)
 - [Contact](https://i.ibb.co/44tnGNf/contact.png)
 - [Products](https://i.ibb.co/9wxnFh2/coffee.png)
-- [Shop](https://i.ibb.co/mvwgxrc/shops.png)
+- [Shops](https://i.ibb.co/mvwgxrc/shops.png)
 - [Sign Up](https://i.ibb.co/PW4y0BC/Sign-up.png)
 - [Login](https://i.ibb.co/NLK2FNt/Login.png)
 - [About](https://i.ibb.co/w6MTPMw/about.png)

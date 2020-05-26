@@ -123,7 +123,6 @@ As a user of **Black & White** website I expect/want/need:
 
 ### Fonts
 
-
 <div  align="center">
 <img src="https://i.ibb.co/fpZCn1z/font-design.png" alt="font-design" aria-label="Fonts used on Black & White website"  />
 </div>

@@ -351,12 +351,12 @@ Image 1 | product_image1 |  | ImageField
 
 | Name | Key in db | Validation | Field Type | Attribute |
 --- | --- | --- | ---
-Full Name | full_name | max_length=150 | CharField | required
-Phone Number | phone_number | max_length=20, blank=False | CharField| required
-Country | country | max_length=40, blank=False | CharField| required
-Postcode | postcode | max_length=20 | CharField| required
-Town / City | town_or_city | max_length=150 | CharField| required
-Address line 1 | address_line_1 | max_length=150 | CharField| required
+Full Name | full_name | max_length=150 | CharField | required |
+Phone Number | phone_number | max_length=20, blank=False | CharField| required |
+Country | country | max_length=40, blank=False | CharField| required |
+Postcode | postcode | max_length=20 | CharField| required |
+Town / City | town_or_city | max_length=150 | CharField| required |
+Address line 1 | address_line_1 | max_length=150 | CharField| required |
 
 #### Payments Model
 | Name | Key in db | Validation | Field Type |

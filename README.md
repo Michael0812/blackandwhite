@@ -339,12 +339,12 @@ There is google map located on this page. User can see three shops located in Do
 - On deployment, the SQL database provided by Heroku is a **PostgreSQL** database. 
 
 #### Products Model
-| Name | Key in db | Validation | Field Type |
+| Name | Key in db | Validation | Field Type | Attrivute |
 --- | --- | --- | ---
-Name | name | max_length=254 | CharField
-Description | description |  | TextField
-Price | price | max_digits=6, decimal_places=2 | DecimalField
-Image 1 | product_image1 |  | ImageField
+Name | name | max_length=254 | CharField | required
+Description | description |  | TextField | required
+Price | price | max_digits=6, decimal_places=2 | DecimalField | required
+Image 1 | product_image1 |  | ImageField | required
 
 
 #### Order model

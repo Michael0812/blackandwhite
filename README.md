@@ -306,7 +306,7 @@ There is google map located on this page. User can see three shops located in Do
 - Information is provided for the user to tell them that tax is already included in the price they saw
 
 ### Checkout
-<img src="https://i.ibb.co/DGXT401/checkout.png" alt="checkout" width="100%" border="0">
+<img src="https://i.ibb.co/NZ2H5px/checkout-image.png" alt="checkout" width="100%" border="0">
 
 - Each checkout page features an order summary, which lists all the items in the users cart, title, price and quantity. A link is provided at the top of this for the user to return to the cart page to make changes to the order.
 

@@ -28,11 +28,6 @@
             </li>
 
         {% if user.is_authenticated %}
-        <!--Logout-->
-            <li class="nav-link mr-3">
-                <a class="text-white text-uppercase" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i><span
-                class="sr-only"></span></a>
-            </li>
         {% else %}
         <!--Login-->
             <li class="nav-link mr-3">
@@ -52,7 +47,7 @@
             <li class="nav-item">
                 <form action="{% url 'search' %}" method="get">
                 <input class="form-search" type="search" name="q" placeholder="Search" aria-label="Search"> 
-                    <button class="btn text-white" type="submit"><i class="fas fa-search"></i></button>
+                    <button class="btn text-white" type="submit"></button>
             </form>
             </li>
         </div>
@@ -63,6 +58,10 @@
         <li class="nav-link d-inline-block">
             <a class="text-white" href="{% url 'profile' %}"><i class="fas fa-user white text-white"></i><span
             class="sr-only"></span></a>
+        </li>
+        <li class="nav-link mr-3">
+            <a class="text-white text-uppercase" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i><span
+                class="sr-only"></span></a>
         </li>
     {% endif %}
 

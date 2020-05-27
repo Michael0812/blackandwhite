@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light pt-4">
 
-    <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
      aria-expanded="false" aria-label="Toggle navigation" style="color: #fff;">
     <i class="fas fa-bars"></i></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -10,20 +10,20 @@
         
         <!--Logo-->
             <li>
-                <a href="{% url 'home' %}"><img src="{% static 'img/logonavbar.svg'%}" alt="logo" class="logo-nav img-responsive"></a>
+                <a href="{% url 'home' %}"><img src="{% static 'img/logonavbar.svg'%}" alt="logo" class="logo-nav img-responsive" ></a>
             </li>
         <!--Products-->
             <li class="nav-link active mr-3">
-                <a class="text-white text-uppercase" href="{% url 'products' %}">products<span
+                <a class="text-white text-uppercase hov hov-2" href="{% url 'products' %}" style="text-decoration: none;">products<span
                 class="sr-only">(current)</span></a>
             </li>
         <!--Shops-->
             <li class="nav-link mr-3">
-                <a class=" text-white text-uppercase" href="{% url 'shops' %}">shops<span class="sr-only">(current)</span></a>
+                <a class=" text-white text-uppercase hov-2" href="{% url 'shops' %}" style="text-decoration: none;">shops<span class="sr-only">(current)</span></a>
             </li>
         <!--About us-->
             <li class="nav-link mr-3">
-                <a class="text-white text-uppercase" href="{% url 'about' %}">about<span
+                <a class="text-white text-uppercase hov-2" href="{% url 'about' %}" style="text-decoration: none;">about<span
                 class="sr-only">(current)</span></a>
             </li>
 
@@ -31,12 +31,12 @@
         {% else %}
         <!--Login-->
             <li class="nav-link mr-3">
-                <a class="text-white text-uppercase" href="{% url 'login' %}">login<span
+                <a class="text-white text-uppercase hov hov-2" href="{% url 'login' %}" style="text-decoration: none;">login<span
                 class="sr-only"></span></a>
             </li>
-
+        <!--Logout-->
             <li class="nav-link mr-3">
-                <a class="text-white text-uppercase" href="{% url 'registration' %}">register<span
+                <a class="text-white text-uppercase hov-2" href="{% url 'registration' %}" style="text-decoration: none;">register<span
                 class="sr-only"></span></a>
             </li>
         {% endif %}
@@ -55,11 +55,11 @@
 
     {% if user.is_authenticated %}
     <!--Profile-->
-        <li class="nav-link d-inline-block">
+        <li class="nav-link">
             <a class="text-white" href="{% url 'profile' %}"><i class="fas fa-user white text-white"></i><span
             class="sr-only"></span></a>
         </li>
-        <li class="nav-link mr-3">
+        <li class="nav-link">
             <a class="text-white text-uppercase" href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i><span
                 class="sr-only"></span></a>
         </li>

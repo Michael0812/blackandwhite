@@ -350,7 +350,7 @@ Image 1 | product_image1 |  | ImageField
 #### Order model
 
 | Name | Key in db | Validation | Field Type | Attribute |
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 Full Name | full_name | max_length=150 | CharField | required |
 Phone Number | phone_number | max_length=20, blank=False | CharField| required |
 Country | country | max_length=40, blank=False | CharField| required |

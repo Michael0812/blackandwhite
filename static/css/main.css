@@ -127,7 +127,7 @@ video{
 
 
 /* Contact */
-.contact-banner{
+.contact-banner-home{
     background-image: url("https://i.ibb.co/0fbmBCk/contact-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@ th, td {
     background-image: url("https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80")
 }
 .contact-banner{
-    background-image: url("https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
+    background-image: url("https://images.unsplash.com/photo-1518832553480-cd0e625ed3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
 }
 
 
@@ -392,7 +392,7 @@ th, td {
 .contact-border{
     border-width: 1.2rem; 
 }
-.contact-banner{
+.contact-banner-home{
     height: 14vh;
 }
 }

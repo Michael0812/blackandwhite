@@ -47,12 +47,14 @@ body{
 }
 
 /* Breadcrumbs */
-.breadcrumbs{
+.breadcrumbs,
+.breadcrumbs-checkout{
     background-color: #f2f2f2;
     height: 40px;
     width: 100%;
     font-size: 1.2rem;
 }
+
 
 /* Products(Home Page) */
 .image-products{
@@ -296,6 +298,7 @@ th, td {
     width: 100%;
     height: 70vh;
     background-size: cover;
+    
     background-repeat: no-repeat;
     background-position: center bottom;
 }
@@ -407,6 +410,8 @@ th, td {
 .video-background{
     min-height: 80vh;
 }
+.breadcrumbs-checkout{
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 968px) {
@@ -470,4 +475,8 @@ th, td {
   bottom: auto;
   top: 0;
   width: 70%;
+}
+
+.test{
+    display: inline-block;
 }

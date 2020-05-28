@@ -21,9 +21,9 @@
 </div>
 
 <!--breadcrumbs -->
-<div class="container-fluid breadcrumbs">
+<div class="container-fluid breadcrumbs-checkout">
     <div class="row">
-        <div id="breadcrumbs" class="col-12 mt-1">
+        <div id="breadcrumbs-checkout" class="col-12 mt-1">
             <a href="/" class="text-dark ml-lg-5 pl-lg-5">Home</a> &gt;
             <a href="{% url 'products' %}" class="text-dark">Products</a> &gt;
             <a href="{% url 'view_cart' %}" class="text-dark">Cart</a> &gt;
@@ -64,7 +64,7 @@
                         <div class="col-6 align-items-end justify-content-end">
                             <p class="price">Price: £{{ item.product.price }}</p>
                             <div class="input-group-addon mb-3">Quantity: {{item.quantity}}</div>
-                            <h3 id="subtotal">Subtotal: £<span class="subtotal-js">{{ total }}</span></h3>
+                            <h3 id="subtotal" class="small">Subtotal: £<span class="subtotal-js">{{ total }}</span></h3>
                         </div>
                     </div>
                 </div>

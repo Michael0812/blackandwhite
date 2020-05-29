@@ -21,15 +21,61 @@
 <h1 class="text-center profile-welcome mt-5 pt-5">Welcome {{ profile.username }}</h1>
 <p class="text-center pt-4 profile-content">Here you can see your order</p>
 
+    <div class="container mt-5 pt-3 mb-5">
+    <div class="row">
+    <div class="col-12 col-lg-6">
+        <h3>Personal Info <i class="fas fa-user"></i></h3>
+    
+    <!--Displays specific user info-->
+        <h6 class="py-2">
+            Username:
+        </h6>
+        <p> {{ user }} </p>
+    
+        <h6 class="py-2 red">
+            Email Address:
+        </h6>
+        <p> {{ user.email }} </p>
 
-            <form method="POST">
-                {% csrf_token %}
-                <fieldset class="form-group">
-                    <legend class="border-bottom py-4 pink-uppercase">Profile Info</legend>
-                   
-                </fieldset>
-                <div class="form-group">
-                    <button class="btn btn-pink btn-cta m-0" type="submit">Update</button>
-                </div>
-            </form>
+    </div>
+       <div class="col-12 col-lg-6">
+        <h3> Order History <i class="fas fa-shopping-bag"></i> </h3>
+
+        <!-- If statement checks for orders in the user's order history, it also lays them out in a responsive table -->
+        {% if orders %}
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                <!-- headings for the columns in the table -->
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Total</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                <!-- For loop iterates over all orders in the order history to displa them on the table by date -->
+                
+                {% for order in orders %}
+                    <tr>
+                        <th scope="row">{{ order.date }}</th>
+                        <td colspan="2"><i class="fas fa-dollar-sign"></i> {{ order.total }}</td>
+                         <td colspan="2"><a href="{% url 'order-info' order.pk %}" class="button-login-color">View Details</a></td>
+      
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- else is used to display a message to the user when they have made no purchases -->
+                
+            {% else %}
+        <span>
+            <strong>You have no Order History</strong>
+            <a href="{% url 'products' %}" class="black">Go Shop</a>
+        </span>
+        {% endif %}
+     </div>
+</div>
+</div>
 {% endblock %}

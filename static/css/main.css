@@ -167,7 +167,10 @@ video{
 a{
     color: #FFFFFF;
 }
-
+a:hover,
+i:hover{
+    color:#AF9375;
+}
 
 /* About */
 *{

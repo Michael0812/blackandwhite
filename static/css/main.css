@@ -108,13 +108,11 @@ body{
     width: 100%;
     background-position: center 5%;
 }
-video{
-   width: 80vw;
-}
+
 
 .video-title{
     color: #AF9375;
-    margin-top: 1rem; 
+    margin-top: 2rem; 
 }
 
 
@@ -135,7 +133,7 @@ video{
     background-image: url("https://i.ibb.co/0fbmBCk/contact-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 18vh;
+    height: 24vh;
     width: 100%;
     background-position: center 5%; 
     margin-top: 10rem;
@@ -144,6 +142,8 @@ video{
 .contact-text,
 .contact-us{
     text-align: center;
+    font-family: 'Poly';
+    font-size: 1.2rem;
 }
 
 .contact-border{
@@ -347,6 +347,12 @@ th, td {
     .logo-navbar{
     margin-top: 5rem;
 }
+.contact-text{
+    margin-top: 4rem;
+}
+.contact-us{
+    padding-top: 3rem;
+}
 }
 @media only screen and (min-width: 1200px) {
 .products-info{
@@ -356,14 +362,14 @@ th, td {
 
 @media only screen and (min-width: 1024px) {
 .mission-title{
-        margin-top: 7rem;
+    margin-top: 7rem;
     }
 .products-info{
     margin-top: 5rem;
     margin-right: 15rem;
 }
 .contact-text{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-left: 12%;
     }
 .products-title{
@@ -399,13 +405,11 @@ th, td {
 }
 .video{
     width: 50%;
-    height: 380px;
+    height: 400px;
 }
+
 .contact-border{
     border-width: 1.2rem; 
-}
-.contact-banner-home{
-    height: 14vh;
 }
 }
 
@@ -416,9 +420,7 @@ th, td {
 .promises-text{
     padding-bottom: 3rem;
 }
-.video-background{
-    min-height: 80vh;
-}
+
 .breadcrumbs-checkout{
     font-size: 1rem;
 }
@@ -427,6 +429,9 @@ th, td {
 .logo-navbar{
     width: 300px;
     margin-top: 2rem;
+}
+.video-background{
+    min-height: 65vh;
 }
 .banner-background{
     min-height: 70vh;

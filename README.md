@@ -329,6 +329,7 @@ There is google map located on this page. User can see three shops located in Do
 - Password Reset.
 - Additional payment methods.
 - Live Chat.
+- History Purchase
 
 
 # Information Architecture

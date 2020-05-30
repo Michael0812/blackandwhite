@@ -269,7 +269,9 @@ th, td {
 
 
 /* Profile */
-.profile-welcome{
+.profile-welcome,
+.username,
+.email{
     color: #A88D70;
 }
 

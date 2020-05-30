@@ -33,7 +33,7 @@ instead of
 
 `script: SECRET_KEY="whatever" manage.py test`
 
-    
+- Sometimes the background images is not responsive on some iPhone devices depends on apple updates
 - Also, many other small issues was solving during this project. I was doing many research, talking with people in Slack community, my mentor, tutors.
 
 

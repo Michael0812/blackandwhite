@@ -582,7 +582,8 @@ Please, follow this [link](https://developers.google.com/maps/documentation/java
 - All other text was copied and used from [Rave Coffee](https://ravecoffee.co.uk/), [Coffee Bean Shop](https://www.coffeebeanshop.co.uk/), [Taylors of Harrogate](https://www.taylorsofharrogate.co.uk/)
 
 ## Code
-I would like to massive thanks [Code institute](https://codeinstitute.net/). I've been following all videos contains in this course and I've been using some code during this project.
+-I would like to massive thanks [Code institute](https://codeinstitute.net/). I've been following all videos contains in this course and I've been using some code during this project.
+-The code that was used for the images on the about page was copied from [Codepen](https://codepen.io/).
 
 ### Images
 - Logo was made by [Polka. Grahpic Design](https://www.facebook.com/polka.graphicdesign)

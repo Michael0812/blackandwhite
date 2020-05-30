@@ -73,3 +73,18 @@ coverage html
 
 - [Travis](https://travis-ci.org/) was used throughout the unit testing of this project to provide continuous integration with the deployed site. The [Travis Documentation](https://docs.travis-ci.com/) provides all the info needed to set it up.
 - I set the heroku deployment settings for this project to only allow deployment when the travis had passed the latest push to the master branch on GitHub.
+
+
+## User Feedback
+
+#### Robert
+The website is extremely easy to use. The company message has been conveyed in an understandable and clear fashion. 
+I have just registered my profile without any issues and the website reads well on both my mobile phone and laptop. 
+I have also ordered two packages of BLACK & WHITE coffee directly from the website and I used my credit card to complete 
+the transaction which was secured and fast.
+
+#### Carolina
+First of all I love the colors and a design on the website, it makes me want to have a coffee! The website was very easy to use.
+ Going from one screen to another was smooth and fast. I bought few coffees without any issues. I like the fact its straight to the point 
+ and the information is interesting. It looks good both on a mobile and a laptop, which makes me happy as I prefer bigger screens. 
+ I would recommend this website to any coffee lovers.

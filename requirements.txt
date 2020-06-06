@@ -4,7 +4,7 @@ boto3==1.13.15
 botocore==1.16.15
 click==7.1.2
 dj-database-url==0.5.0
-Django==3.0.5
+Django==3.0.7
 django-bootstrap4==1.1.1
 django-createsuperuser==2019.9.7
 django-crispy-forms==1.9.0
